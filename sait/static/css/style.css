@@ -1,0 +1,414 @@
+html {
+    background-color: rgb(235, 235, 229);
+}
+
+* {
+    box-sizing: border-box;
+
+
+}
+
+.conteiner {
+    position: relative;
+    width: 1907px;
+    height: 2586px;
+    background-color: rgba(220, 221, 215, 1);
+    margin: 0 auto;
+}
+
+.page1top {
+    position: absolute;
+    width: 1907px;
+    height: 1200px;
+    left: 0px;
+    top: 0px;
+
+    background: url('../img/lico2 1.png');
+}
+
+.header {
+    position: absolute;
+    width: 1907px;
+    height: 168px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo {
+    position: absolute;
+    width: 302.22px;
+    height: 168px;
+    left: 0px;
+    top: 0px;
+
+    background: url('../img/logo 1.png');
+    mix-blend-mode: darken;
+}
+
+.line {
+    position: absolute;
+    width: 1370.06px;
+    height: 0px;
+    left: 302.22px;
+    top: 123.76px;
+
+    border: 3px solid rgba(0, 0, 0, 0.27);
+}
+
+.link {
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+
+}
+
+.helink1 {
+    position: absolute;
+    width: 207px;
+    height: 40px;
+    left: 336px;
+    top: 56px;
+    text-decoration: none;
+    color: #000000
+
+
+}
+
+.helink2 {
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    left: 567px;
+    top: 56px;
+    text-decoration: none;
+    color: #000000
+
+}
+
+.helink3 {
+    position: absolute;
+    width: 432px;
+    height: 40px;
+    left: 764px;
+    top: 56px;
+    text-decoration: none;
+    color: #000000
+}
+
+.helink4 {
+    position: absolute;
+    width: 102px;
+    height: 40px;
+    left: 1242px;
+    top: 56px;
+    text-decoration: none;
+    color: #000000
+}
+
+.helink5 {
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 1390px;
+    top: 56px;
+    text-decoration: none;
+    color: #000000
+}
+
+.boxcontent1 {
+    position: absolute;
+    width: 1078px;
+    height: 303px;
+    left: 0px;
+    top: 168px;
+
+    background: #FCAD09;
+
+}
+
+.text1 {
+
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 83px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'case' on;
+
+    color: #FFFFFF;
+
+}
+
+.boxtext2 {
+    position: absolute;
+    width: 776px;
+    height: 538px;
+    left: 89px;
+    top: 378px;
+
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 65px;
+    /* or 162% */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.page1bot {
+    position: absolute;
+    width: 1907px;
+    height: 1386px;
+    left: 0px;
+    top: 1200px;
+
+    background: #DCDDD7;
+
+}
+
+.bookpage1 {
+    position: absolute;
+    width: 421.13px;
+    height: 581px;
+    left: 438.01px;
+    top: 76px;
+
+    background: url('../img/книга с 1 страницы.png');
+}
+
+.content-bot-text1 {
+    position: absolute;
+    width: 659.5px;
+    height: 264.26px;
+    left: 953.5px;
+    top: 102.45px;
+
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 50px;
+    /* or 147% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.08em;
+
+    color: rgba(0, 0, 0, 0.66)
+}
+
+.podarok1page {
+    position: absolute;
+    width: 520.45px;
+    height: 121.51px;
+    left: 966.41px;
+    top: 421.29px;
+}
+
+.oval-podarok {
+    position: absolute;
+    width: 520.45px;
+    height: 121.51px;
+    left: 966.41px;
+    top: 421.29px;
+
+    background: #FCAD09;
+    border-radius: 100px;
+}
+
+.text-oval-podarok {
+    position: absolute;
+    width: 366.5px;
+    height: 76.58px;
+    left: 76.89px;
+    top: 19.68px;
+
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.saleconsult {
+    position: absolute;
+    width: 565px;
+    height: 285px;
+    left: 241px;
+    top: 711px;
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 50px;
+    /* or 147% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.ovaltext-2 {
+    position: absolute;
+    width: 369px;
+    height: 64.96px;
+    left: 339px;
+    top: 937px;
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.oval2 {
+    position: absolute;
+    width: 456px;
+    height: 116px;
+    left: 296px;
+    top: 916px;
+
+    background: #FCAD09;
+    border-radius: 50px;
+}
+
+.iconsocial {
+    position: absolute;
+    width: 51px;
+    height: 204px;
+    left: 36px;
+    top: 1068px;
+}
+
+.youtube {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 36px;
+    margin-bottom: 10px;
+
+    background: url('../img/free-icon-youtube-2111795 1.png');
+}
+
+.telegram {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 36px;
+    margin-top: 60px;
+
+    background: url('../img/free-icon-telegram-4701496 1.png');
+}
+
+.vk {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    left: 36px;
+    margin-top: 120px;
+
+    background: url('../img/free-icon-vkontakte-4494490 1.png');
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+
+.footer_page1 {
+    position: absolute;
+    width: 1138px;
+    height: 32px;
+    left: 21%;
+    top: 1263px;
+
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    left: 21%;
+    /* or 250% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+
+    color: #000000;
+}
+
+.questionsicon {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: 1775px;
+    top: 1186px;
+
+    background: #FCAD09;
+    border-radius: 53px;
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 40px;
+    /* or 89% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.vopros {
+    position: absolute;
+    width: 109px;
+    height: 67px;
+    left: 1819px;
+    top: 1199px;
+
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 40px;
+    text-decoration: none;
+    /* or 89% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
