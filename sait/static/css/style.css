@@ -23,7 +23,8 @@ html {
     left: 0px;
     top: 0px;
 
-    background: url('../img/lico2 1.png');
+    background: url('../img/лицо.jpg ') no-repeat;
+    background-size: cover;
 }
 
 .header {
@@ -412,4 +413,3 @@ html {
 
     color: #FFFFFF;
 }
-
