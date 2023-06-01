@@ -38,8 +38,9 @@ html {
     position: absolute;
     width: 302.22px;
     height: 168px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
+
 
     background: url('../img/logo 1.png');
     mix-blend-mode: darken;
