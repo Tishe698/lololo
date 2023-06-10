@@ -1,54 +1,65 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" href="{% static 'css/style.css' %}" rel="stylesheet"/>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>L-ASTROPROEKT</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
-<body>
-    <div class="conteiner">
-        <div class="page1top">
-            <div class="header">
-                <a class="logo" href="{% url 'home' %}"></a>
-                <div class="line"></div>
-                <div class="link">
-                    <a class="helink1" href="">Обучающие курсы</a>
-                    <a class="helink2" href="">Мастер-классы</a>
-                    <a class="helink3" href="">Бесплатные астрологические продукты</a>
-                    <a class="helink4" href="{% url 'about_me' %}">Обо мне</a>
-                    <a class="helink5" href="">Консультация от астролога Людмилы Ясиной </a>
-                </div>
 
+<header>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="logo"></div>
+        <div class="container-fluid">
+
+            <div>
+                <a class="navbar-brand d-none" href="#"> </a>
+                <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" id="toggle-button">
+                    <span class="visually-hidden">Переключить навигацию</span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-            <div class="boxcontent1">
-                <div class="text1">Школа ведической астрологии Людмилы Ясиной</div>
+            
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav main-nav">
+                    <li class="nav-item"><a class="nav-link" id="home" href="#">Обучающие курсы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Мастер-классы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Бесплатные астрологические продукты</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Обо мне</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Консультация от астролога Людмилы Ясиной</a></li>
+                </ul>
             </div>
-            <div class="boxtext2">Ваша натальная карта – это настоящая энциклопедия о человеке, записанная в 12 домах гороскопа Внутри есть ответ на любой ваш вопрос</div>
-        </div>
-        <div class="page1bot">
-            <div class="bookpage1"></div>
-            <div class="content-bot-text1">Авторское астрологическое пособие: "Ретроградные планеты в вашей карте. Какие задачи они вам ставят" В ПОДАРОК</div>
-            <div class="oval-podarok">
-                <a href="#" class="text-oval-podarok">Получить ПОДАРОК</a>
             </div>
-            <div class="saleconsult">Розыгрыш бесплатной мини консультации</div>
-            <div class="oval2"></div>
-            <a href="#" class="ovaltext-2">Посмотреть список тем</a>
-            <div class="iconsocial">
-                <a class="youtube" href="https://www.youtube.com/channel/UCORcdUdIcRwMVjagv_H1I9Q"></a>
-                <a class="telegram" href="https://t.me/LAstroproekt"></a>
-                <a class="vk" href="https://vk.com/vedaastra"></a>
-            </div>
-            <div class="footer_page1"><p>@ 2023 Частичное или полное копирование информации с данного сайта для распространения
-            на других ресурсах, в том числе и бумажных, строго запрещено. Все тексты и изображения являются
-            собственностью сайта</p></div>
-        <a class="questionsicon" href=""></a>
-        <a class="vopros" href="">?</a>
+    </nav>
+</header>
+
+<body>
+    <div class="line"></div>
+    <div class="hidden-content">
+        <div class="skola">Школа ведической астрологии Людмилы Ясиной</div>
+        <div class="slogan">
+            Раскройте сокровенную энциклопедию себя в своей натальной карте и найдите ответы на любые вопросы в вашей
+            жизни, осуществляя все свои желания на пути к истинному счастью!"</div>
+        <div class="social">
+            <a class="social" href="#">
+                <img src="{% static 'img/free-icon-youtube-2111795 1.png' %}" alt="youtube">
+            </a>
+            <a class="social" href="#">
+                <img src="{% static 'img/free-icon-vkontakte-4494490 1.png' %}" alt="vk">
+            </a>
+            <a class="social" href="#">
+                <img src="{% static 'img/free-icon-telegram-4701496 1.png' %}" alt="telegram">
+            </a>
         </div>
     </div>
+
+    <!-- Подключаем файл JavaScript -->
+    <script src="{% static 'js/скрипт отображения и скрыти.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
 </body>
+
 </html>
