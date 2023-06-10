@@ -1,0 +1,279 @@
+/* Общие стили */
+body {
+    font-family: 'Lora';
+
+    background: url('../img/bgr333 копия 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1920px;
+    height: 1080px;
+
+
+}
+
+.line {
+    width: 150vh;
+    border: 2px solid rgba(0, 0, 0, 0.27);
+    top: -5.1vh;
+    position: relative;
+    left: 42vh;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    width: 274vh;
+    height: 14vh;
+    font-size: 1em;
+}
+
+.navbar {
+    background-color: none;
+}
+
+.logo {
+    background: url('../img/logo 1.png');
+    background-repeat: no-repeat;
+    width: 51vh;
+    height: 18vh;
+    mix-blend-mode: darken;
+}
+
+.navbar-brand {
+    /* Стили для вашего бренда */
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-toggler-icon {
+    /* Стили для иконки переключателя */
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    font-size: 1.2em;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Lora';
+    color: rgba(0, 0, 0, 0.66);
+    left: -5vh;
+    position: relative;
+    bottom: -2vh;
+    border-radius: 100vh;
+    background: transparent;
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+    background: #FCAD09;
+    box-shadow: 0 0 0 2px orange; /* Замените на желаемый цвет овала и толщину границы */
+    border-radius: 110vh;
+}
+
+.hidden-content {
+    text-align: center;
+}
+
+.skola {
+    width: 109vh;
+    height: 28vh;
+    background: rgb(252, 173, 9);
+    font-family: Lora;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7vh;
+    line-height: 7vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: "case";
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+
+.slogan {
+    width: 97vh;
+    height: 390px;
+    left: 193px;
+    top: 570px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vh;
+    line-height: 9vh;
+    /* display: flex; */
+    align-items: center;
+    color: rgba(0, 0, 0, 0.58);
+}
+
+.social img {
+    display: flex;
+    position: relative;
+    top: 15vh;
+    margin-bottom: 0.8rem;
+}
+
+
+/* Медиа-запросы */
+
+/* Для устройств с шириной экрана меньше 576px */
+@media (max-width: 575.98px) {
+    body {
+        font-family: 'Lora';
+
+        background: url('../img/bgr333 копия 1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 1920px;
+        height: 1080px;
+
+
+    }
+
+    .line {
+        display: no;
+    }
+
+    .container-fluid {
+        margin: 0 auto;
+        width: 274vh;
+        height: 14vh;
+        font-size: 1em;
+    }
+
+    .navbar {
+        background-color: none;
+    }
+
+    .logo {
+        background: url('../img/logo 1.png');
+        background-repeat: no-repeat;
+        width: 51vh;
+        height: 18vh;
+        mix-blend-mode: darken;
+    }
+
+    .navbar-brand {
+        /* Стили для вашего бренда */
+    }
+
+    .navbar-toggler {
+        border: none;
+        background-color: transparent;
+    }
+
+    .navbar-toggler-icon {
+        /* Стили для иконки переключателя */
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+    }
+
+    .nav-item {
+        font-size: 1.2em;
+
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-family: 'Lora';
+        color: rgba(0, 0, 0, 0.66);
+        left: -5vh;
+        position: relative;
+        bottom: -2vh;
+        border-radius: 100vh;
+        background: transparent;
+        transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    }
+
+    .nav-link:hover {
+        color: #FFFFFF;
+        background: #FCAD09;
+        box-shadow: 0 0 0 2px orange; /* Замените на желаемый цвет овала и толщину границы */
+        border-radius: 110vh;
+    }
+
+    .hidden-content {
+        text-align: center;
+    }
+
+    .skola {
+        width: 109vh;
+        height: 28vh;
+        background: rgb(252, 173, 9);
+        font-family: Lora;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 7vh;
+        line-height: 7vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-feature-settings: "case";
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    }
+
+    .slogan {
+        width: 97vh;
+        height: 390px;
+        left: 193px;
+        top: 570px;
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5vh;
+        line-height: 9vh;
+        /* display: flex; */
+        align-items: center;
+        color: rgba(0, 0, 0, 0.58);
+    }
+
+    .social img {
+        display: flex;
+        position: relative;
+        top: 15vh;
+        margin-bottom: 0.8rem;
+    }
+}
+
+/* Для устройств с шириной экрана от 576px до 767.98px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-item.d-flex {
+        margin-left: 10px;
+    }
+}
+
+/* Для устройств с шириной экрана от 768px до 991.98px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav.main-nav {
+        margin-left: 0;
+    }
+
+    .nav-item {
+        margin-right: 5px;
+    }
+}
+
+/* Для устройств с шириной экрана от 992px и выше */
+@media (min-width: 992px) {
+    .navbar-nav.main-nav {
+        margin-left: 30px;
+    }
+}
