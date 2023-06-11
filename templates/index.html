@@ -1,4 +1,3 @@
-
 {% load static %}
 
 <!DOCTYPE html>
@@ -13,75 +12,62 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-light navbar-expand-lg">
-            <div class="logo col-12 col-sm-auto"></div>
-            <!-- Добавлен класс "w-100" -->
-            <div class="container-fluid">
-                <div>
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+<header>
+    <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="logo col-12 col-sm-auto"></div>
+        <!-- Добавлен класс "w-100" -->
+        <div class="container-fluid">
+            <div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navcol-1" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="navcol-1">
-                    <ul class="navbar-nav main-nav">
-                        <li class="nav-item"><a class="nav-link" id="home" href="#">Обучающие курсы</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Мастер-классы</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Бесплатные астрологические продукты</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Обо мне</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Консультация от астролога Людмилы Ясиной</a></li>
-                    </ul>
-                </div>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-        </nav>
-    </header>
-    <div class="line"></div>
-    <div class="hidden-content">
-        <div class="row">
-            <div class="s">
-                <div class="col-12 col-lg-8">
-                    <div class="skola">Школа ведической астрологии Людмилы Ясиной</div>
-                    <div class="slogan">
-                        Раскройте сокровенную энциклопедию себя в своей натальной карте и найдите ответы на любые вопросы в вашей жизни, осуществляя все свои желания на пути к истинному счастью!
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="foto"></div>
-                </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav main-nav">
+                    <li class="nav-item"><a class="nav-link" id="home" href="#">Обучающие курсы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Мастер-классы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Бесплатные астрологические продукты</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Обо мне</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Консультация от астролога Людмилы Ясиной</a></li>
+                </ul>
             </div>
         </div>
-    </div>    
-    <div class="social d-flex justify-content-center">
-        <a href="#" class="col-auto">
-            <img src="{% static 'img/free-icon-youtube-2111795 1.png' %}" alt="youtube">
-        </a>
-        <a href="#" class="col-auto">
-            <img src="{% static 'img/free-icon-vkontakte-4494490 1.png' %}" alt="vk">
-        </a>
-        <a href="#" class="col-auto">
-            <img src="{% static 'img/free-icon-telegram-4701496 1.png' %}" alt="telegram">
-        </a>
-    </div>     
-</body>
+    </nav>
+</header>
+<div class="line"></div>
+<div class="hidden-content">
+    <div class="row">
+        <div class="s">
+            <div class="col-12 col-lg-8">
+                <div class="skola">Школа ведической астрологии Людмилы Ясиной</div>
+                <div class="slogan">
+                    Раскройте сокровенную энциклопедию себя в своей натальной карте и найдите ответы на любые вопросы в
+                    вашей жизни, осуществляя все свои желания на пути к истинному счастью!
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="foto"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="social d-flex justify-content-center">
+    <a href="#" class="col-auto">
+        <img src="{% static 'img/free-icon-youtube-2111795 1.png' %}" alt="youtube">
+    </a>
+    <a href="#" class="col-auto">
+        <img src="{% static 'img/free-icon-vkontakte-4494490 1.png' %}" alt="vk">
+    </a>
+    <a href="#" class="col-auto">
+        <img src="{% static 'img/free-icon-telegram-4701496 1.png' %}" alt="telegram">
+    </a>
+</div>
 
-</html>
-   
-            
-            
-        
 
-      
-         
-
-
-        
-    
-    
-
-    <!-- Подключаем файл JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/скрипт отображения и скрыти.js"></script>
+<!-- Подключаем файл JavaScript -->
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/скрипт отображения и скрыти.js' %}"></script>
 </body>
 
 </html>
