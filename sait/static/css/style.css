@@ -1,15 +1,18 @@
-body {
+bbody {
     background: url('../img/фон боди.jpg') no-repeat;
     background-position: center;
     background-size: cover;
     font-family: 'Lora', sans-serif;
     /* Добавьте дополнительные стили по вашему выбору */
 }
+*{
+    margin: 0;
+}
 
 
 
 .foto{
-background: url(../img/тело.jpg) no-repeat;
+background: url('../img/тело.jpg') no-repeat;
 background-size: contain;
 width: 100vh;
 height: 100vh;
@@ -95,15 +98,19 @@ letter-spacing: 0.08em;
 }
 /* Медиа-запрос для мобильных устройств с шириной от 280px до 767px */
 @media (min-width: 280px) and (max-width: 767px) {
-
+    body {
+        overflow-x: hidden;
+    }
     /* Добавьте стили для мобильных устройств */
     /* Например: изменение размеров, расположение элементов и т.д. */
-    .hidden-content{
+    .hidden-content {
 
     }
-    .foto{
+    .foto {
         display: none;
     }
+    /* остальные стили */
+}
     .logo {
         background: url('../img/logo 1.png') no-repeat;
         background-size: 17rem 9em;
@@ -142,7 +149,7 @@ letter-spacing: 0.08em;
         font-style: normal;
         font-weight: 500;
         font-size: 2em;
-        line-height: 6vh;
+        line-height: 7vh;
         display: flex;
         align-items: center;
         text-align: center;
@@ -152,8 +159,8 @@ letter-spacing: 0.08em;
         border: 1px solid rgb(255, 255, 255);
         text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
     }
-    
-}
+
+
 
 
 
@@ -190,7 +197,7 @@ letter-spacing: 0.08em;
         min-width: 10em;
         height: 100vh;
         mix-blend-mode: darken;
-        
+
     }
 }
 
@@ -244,7 +251,7 @@ letter-spacing: 0.08em;
         border: 1px solid rgb(255, 255, 255);
         text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
     }
-    
+
 }
 
 
@@ -294,6 +301,6 @@ letter-spacing: 0.08em;
         color: rgba(0, 0, 0, 0.58);
         display: flex;
     }
-    
+
 
 }
