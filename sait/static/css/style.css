@@ -5,19 +5,21 @@ body {
     font-family: 'Lora', sans-serif;
     /* Добавьте дополнительные стили по вашему выбору */
 }
-*{
+
+* {
     margin: 0;
 }
 
 
 
-.foto{
-background: url('../img/тело.jpg') no-repeat;
-background-size: contain;
-width: 100vh;
-height: 100vh;
+.foto {
+    background: url(../img/тело.jpg) no-repeat;
+    background-size: contain;
+    width: 100vh;
+    height: 100vh;
     mix-blend-mode: darken;
 }
+
 .s {
     display: flex;
 }
@@ -82,33 +84,48 @@ height: 100vh;
     border-radius: 100vh;
 }
 
-footer{
-    background-color: #DCDDD7;;
+footer {
+    background-color: #DCDDD7;
+    ;
     font-family: 'HeadlandOne';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 50px;
-/* or 250% */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    /* or 250% */
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.08em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
 }
+
 /* Медиа-запрос для мобильных устройств с шириной от 280px до 767px */
 @media (min-width: 280px) and (max-width: 767px) {
     body {
         overflow-x: hidden;
-    }
-    /* Добавьте стили для мобильных устройств */
-    /* Например: изменение размеров, расположение элементов и т.д. */
-    .hidden-content {
+        background: url('../img/фон боди.jpg') no-repeat;
+        /* background-position: center; */
+        /* background-size: cover; */
+        /* font-family: 'Lora', sans-serif; */
 
     }
+
+    .slogan {
+        left: 193px;
+        top: 570px;
+        font-family: 'Lora';
+        font-size: 2.6vh;
+        color: rgba(0, 0, 0, 0.58);
+
+    }
+
+    .hidden-content {}
+
     .foto {
         display: none;
     }
+
     /* остальные стили */
 
     .logo {
@@ -140,9 +157,11 @@ letter-spacing: 0.08em;
     .line {
         display: none;
     }
+
     .foto {
         width: 20em;
     }
+
     .skola {
         background: rgb(252, 173, 9);
         font-family: Lora;
@@ -160,13 +179,29 @@ letter-spacing: 0.08em;
         text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
     }
 
+    .social {
+        /* display: flex; */
+        flex-direction: row;
+        margin-left: 2em;
+    }
+
+    .col-auto {
+        margin-bottom: 2em;
+
+    }
+
+    .social img {
+        margin-right: 7vh;
+    }
 }
 
 
 
 
+
+
 /* Медиа-запрос для планшетов с шириной от 768px */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 767px) and (max-width: 991px) {
     .logo {
         background: url('../img/логотип для планшетов (1).png') no-repeat;
         background-size: contain;
@@ -174,6 +209,13 @@ letter-spacing: 0.08em;
         width: 100%;
         height: 14em;
         mix-blend-mode: darken;
+    }
+
+    .s {
+        display: flex;
+        font-size: 1.9em;
+        flex-direction: column;
+        /* align-content: flex-start; */
     }
 
     .nav-item {
@@ -191,6 +233,7 @@ letter-spacing: 0.08em;
     .line {
         display: none;
     }
+
     .foto {
         background: url(../img/тело.jpg) no-repeat;
         background-size: contain;
@@ -199,9 +242,57 @@ letter-spacing: 0.08em;
         mix-blend-mode: darken;
 
     }
+
+    .skola {
+        background: rgb(252, 173, 9);
+        font-family: Lora;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 5.3vh;
+        line-height: 7vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-feature-settings: "case";
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+        width: 43vh;
+        width: 100%;
+    }
+
+    .navbar-toggler-icon {
+        width: 2.5em;
+        height: 2.5em;
+
+    }
+
+    .nav-link {
+
+        font-size: 10em;
+        font-size: 1.8em;
+        margin-left: 2.5em;
+    }
+
+    .slogan {
+        font-family: 'Lora';
+        font-size: 3vh;
+        color: rgba(0, 0, 0, 0.58);
+
+    }
+    .social {
+        /* display: flex; */
+        flex-direction: row;
+        margin-left: 2em;
+    }
+    .social img {
+        margin-right: 9vh;
+        height: 6vh
+    }
 }
 
-@media (min-width: 1024px) and (max-width: 1439px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .logo {
         background: url('../img/logo 1.png') no-repeat;
         background-size: contain;
@@ -216,6 +307,7 @@ letter-spacing: 0.08em;
         font-size: 0.75em;
 
     }
+
     .foto {
         min-width: 10em;
     }
@@ -233,6 +325,7 @@ letter-spacing: 0.08em;
         position: relative;
         left: 16em;
     }
+
     .skola {
         width: 14em;
         height: 5em;
@@ -252,11 +345,26 @@ letter-spacing: 0.08em;
         text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
     }
 
+    .slogan {
+        left: 193px;
+        top: 570px;
+        font-family: 'Lora';
+        font-size: 2.6vh;
+        color: rgba(0, 0, 0, 0.58);
+
+    }
+
+    .social {
+        flex-direction: column;
+        margin-left: 2em;
+        margin-top: -15em;
+    }
+
 }
 
 
 
-@media (min-width: 1440px) and (max-width: 2600px) {
+@media (min-width: 1200px) {
     .line {
         width: 58rem;
         border: 2px solid rgba(0, 0, 0, 0.27);
@@ -264,6 +372,7 @@ letter-spacing: 0.08em;
         position: relative;
         left: 18.8em;
     }
+
     .foto {
         min-width: 20em;
     }
@@ -286,6 +395,7 @@ letter-spacing: 0.08em;
         border: 1px solid rgb(255, 255, 255);
         text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
     }
+
     .slogan {
         width: 23em;
         height: 10em;
