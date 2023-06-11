@@ -3,6 +3,7 @@ body {
     background-position: center;
     background-size: cover;
     font-family: 'Lora', sans-serif;
+    height: 100%;
     /* Добавьте дополнительные стили по вашему выбору */
 }
 
@@ -102,14 +103,7 @@ footer {
 
 /* Медиа-запрос для мобильных устройств с шириной от 280px до 767px */
 @media (min-width: 280px) and (max-width: 767px) {
-    body {
-        overflow-x: hidden;
-        background: url('../img/фон боди.jpg') no-repeat;
-        /* background-position: center; */
-        /* background-size: cover; */
-        /* font-family: 'Lora', sans-serif; */
 
-    }
 
     .slogan {
         left: 193px;
