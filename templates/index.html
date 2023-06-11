@@ -1,3 +1,6 @@
+
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,8 +8,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Untitled</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 
 <body>
@@ -48,15 +51,37 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
     <div class="social d-flex justify-content-center">
         <a href="#" class="col-auto">
-            <img src="/img/free-icon-youtube-2111795 1.png" alt="youtube">
+            <img src="{% static 'img/free-icon-youtube-2111795 1.png' %}" alt="youtube">
         </a>
         <a href="#" class="col-auto">
-            <img src="img/free-icon-vkontakte-4494490 1.png" alt="vk">
+            <img src="{% static 'img/free-icon-vkontakte-4494490 1.png' %}" alt="vk">
         </a>
         <a href="#" class="col-auto">
-            <img src="img/free-icon-telegram-4701496 1.png" alt="telegram">
+            <img src="{% static 'img/free-icon-telegram-4701496 1.png' %}" alt="telegram">
         </a>
-    </div>
+    </div>     
+</body>
+
+</html>
+   
+            
+            
+        
+
+      
+         
+
+
+        
+    
+    
+
+    <!-- Подключаем файл JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/скрипт отображения и скрыти.js"></script>
+</body>
+
+</html>
