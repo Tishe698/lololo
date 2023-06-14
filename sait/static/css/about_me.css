@@ -1,0 +1,17 @@
+
+
+.container{
+    position: relative;
+}
+
+
+
+.foto{
+
+}
+
+.img-fluid {
+    margin-right: 15rem;
+    max-width: 100%;
+    max-height: 50%;
+}
