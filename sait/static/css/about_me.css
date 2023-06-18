@@ -139,6 +139,8 @@ html, body {
     line-height: 88px;
     position: absolute;
     transform: translate(39px, 1778px);
+    max-width: 54px;
+    max-height: 264px;
 }
 
 .krug {
