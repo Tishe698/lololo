@@ -1,6 +1,6 @@
 html, body {
     width: 100%;
-    background: rgba(239, 236, 231, 0.66);
+    background: #DCDDD7;
   }
 
 
@@ -21,11 +21,11 @@ html, body {
 }
 /* блок верхний*/
 .perv_block {
-        margin: 0 auto;
+    margin: 0 auto;
     position: relative;
     margin-right: 20px;
-    min-width: 1400px;
-  }
+    min-width: 1200px;
+}
 /* первый прямоугольник*/
 .perv_kvadrat {
     position: absolute;
