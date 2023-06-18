@@ -12,54 +12,59 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg nav_main">
-        <a href="#">
-            <div class="logo"></div>
-        </a>
-        <!-- Добавлен класс "w-100" -->
-        <div class="container">
-            <div>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+<nav class="navbar navbar-light navbar-expand-lg nav_main">
+    <a href="#">
+        <div class="logo"></div>
+    </a>
+    <!-- Добавлен класс "w-100" -->
+    <div class="container">
+        <div>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navcol-1" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav main-nav">
-                    <li class="nav-item"><a class="nav-link ff_header" id="home" href="#">Обучающие курсы</a></li>
-                    <li class="nav-item"><a class="nav-link ff_header" href="#">Мастер-классы</a></li>
-                    <li class="nav-item"><a class="nav-link ff_header" href="#">Бесплатные астрологические
-                            продукты</a></li>
-                    <li class="nav-item"><a class="nav-link ff_header" href="#">Обо мне</a></li>
-                    <li class="nav-item"><a class="nav-link ff_header" href="#">Консультация от астролога Людмилы
-                            Ясиной</a></li>
-                </ul>
-            </div>
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-    </nav>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="navbar-nav main-nav">
+                <li class="nav-item"><a class="nav-link ff_header" id="home" href="#">Обучающие курсы</a></li>
+                <li class="nav-item"><a class="nav-link ff_header" href="#">Мастер-классы</a></li>
+                <li class="nav-item"><a class="nav-link ff_header" href="#">Бесплатные астрологические
+                    продукты</a></li>
+                <li class="nav-item"><a class="nav-link ff_header" href="#">Обо мне</a></li>
+                <li class="nav-item"><a class="nav-link ff_header" href="#">Консультация от астролога Людмилы
+                    Ясиной</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-    <div class="perv_block">
-        <img src="{% static 'img/2page/licocomp2.png' %}" alt="foto" class="foto">
-        <div class="perv_kvadrat">
-            <div class="text_per_kvadr">
-                <div class=Ludmila_yasina> Людмила Ясина</div>
-                <div class="ved_astrolog">ведический астролог</div>
-            </div>
+<div class="perv_block">
+    <img src="{% static 'img/2page/licocomp2.png' %}" alt="foto" class="foto">
+    <div class="perv_kvadrat">
+        <div class="text_per_kvadr">
+            <div class=Ludmila_yasina> Людмила Ясина</div>
+            <div class="ved_astrolog">ведический астролог</div>
         </div>
-        <div class="vtor_kvadrat">
-            <div class="text_vtor_kvadrata">
-                <div class="avtor_kursov">
-                    Автор курсов: «Астрология ПРОСТО», «Финансы и богатство», «Сам себе
-                    астролог», «АстроStart»
-                    и
-                    др. Автор различных астрологических пособий, мастер-классов. Основатель школы астрологии
-                    L-Астропроект
-                </div>
+    </div>
+    <div class="vtor_kvadrat">
+        <div class="text_vtor_kvadrata">
+            <div class="avtor_kursov">
+                Автор курсов: «Астрология ПРОСТО», «Финансы и богатство», «Сам себе
+                астролог», «АстроStart»
+                и
+                др. Автор различных астрологических пособий, мастер-классов. Основатель школы астрологии
+                L-Астропроект
             </div>
         </div>
     </div>
+    <div class="text_missia">
+        Моя миссия - найти супер силу в человеке, помочь найти смысл жизни и обрести гармонию во всех сферах. И это
+        я про все сферы жизни - отношения, работа, друзья, семья, хобби, деньги, внутренний комфорт и даже духовная
+        эволюция. Все, что окружает, начинается с ТЕБЯ!
+    </div>
+</div>
 
-    <script src='{% static "js/bootstrap.min.js" %}'></script>
+<script src='{% static "js/bootstrap.min.js" %}'></script>
 </body>
 
 </html>

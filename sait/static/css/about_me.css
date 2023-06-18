@@ -79,7 +79,21 @@ html, body {
     line-height: 65px;
     color: #FFFFFF;
 }
+/* текст справа */
 
+.text_missia {
+    margin-left: 33px;
+    position: absolute;
+    width: 420px;
+    height: 422px;
+    transform: translate(180%, -132%);
+    font-family: 'HeadlandOne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 47px;
+    color: rgba(0, 0, 0, 0.5);
+}
 /* фотография */
 .foto {
     z-index: 2;
@@ -88,3 +102,5 @@ html, body {
     top: 0px;
     max-width: 42em;
 }
+
+
