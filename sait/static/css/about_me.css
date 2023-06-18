@@ -82,10 +82,9 @@ html, body {
 /* текст справа */
 
 .text_missia {
-    margin-left: 33px;
     position: absolute;
     width: 420px;
-    height: 422px;
+    height: 439px;
     transform: translate(180%, -132%);
     font-family: 'HeadlandOne';
     font-style: normal;
