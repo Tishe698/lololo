@@ -117,3 +117,62 @@ html, body {
 }
 
 
+.ovalik {
+    background: #FCAD09;
+    position: absolute;
+    transform: translate(453px, 1668px);
+    border-radius: 215px;
+    width: 413px;
+    height: 86px;
+}
+.zapis_kons {
+    font-family: 'HeadlandOne', serif;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-left: 24px;
+    margin-top: 19px;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    line-height: 88px;
+    position: absolute;
+    transform: translate(39px, 1778px);
+}
+
+.krug {
+    background: #FCAD09;
+    position: absolute;
+    transform: translate(1104px, 1830px);
+    border-radius: 221px;
+    width: 102px;
+    height: 100px;
+}
+.vopros {
+    font-family: 'HeadlandOne', serif;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 64px;
+    margin-left: 37px;
+    margin-top: 1px;
+}
+.avtor_prava {
+    background: #FCAD09;
+    position: absolute;
+    transform: translate(0px, 2042px);
+    width: 1400px;
+    height: 100px;
+}
+.text_prav {
+    font-family: 'HeadlandOne', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    width: 1117px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 50px;
+}
+
+
+
