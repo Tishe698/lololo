@@ -82,11 +82,11 @@ html, body {
 /* текст справа */
 
 .text_missia {
+    margin-left: 33px;
     position: absolute;
     width: 420px;
-    height: 439px;
-    transform: translate(180%, -132%);
-    font-family: 'Lora', serif;
+    transform: translate(732px, -575px);
+    font-family: 'HeadlandOne', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -100,6 +100,20 @@ html, body {
     left: 62px;
     top: 0;
     width: 672px;
+}
+
+.mnogotexta {
+    margin-left: 33px;
+    position: absolute;
+    width: 996px;
+    /* height: 0px; */
+    transform: translate(91px, 368px);
+    font-family: 'HeadlandOne', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 66px;
+    color: rgba(0, 0, 0, 0.66);
 }
 
 
