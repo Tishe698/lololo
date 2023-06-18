@@ -1,17 +1,96 @@
+html, body {
+    width: 100%;
+
+  }
 
 
-.container{
+/* размер ссылок хедора CSS */
+.ff_header{
+    font-size: 16px;
+    font-family: 'Lora';
+
+}
+
+.logo {
+    background: url('../img/logo 1.png');
+    width: 221px;
+    height: 122px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    mix-blend-mode: darken;
+}
+/* блок верхний*/
+.perv_block {
+        margin: 0 auto;
     position: relative;
+    margin-right: 20px;
+    min-width: 1400px;
+  }
+/* первый прямоугольник*/
+.perv_kvadrat {
+    position: absolute;
+    top: 23%;
+    transform: translate(0%, -44%);
+    background: #FCAD09;
+    width: 1100px;
+}
+.text_per_kvadr {
+    margin-left: 48em; /* Adjust the value according to your desired shift */
+  }
+
+
+  .Ludmila_yasina {
+    font-family: 'Lora';
+    font-size: 71px;
+    color: #FFFFFF;
+    width: 414px;
+    height: 151px;
+    margin-right: -10px;
+    line-height: 56px;
+}
+.ved_astrolog {
+    font-family: 'HeadlandOne';
+    color: #FFFFFF;
+    margin-right: 116px;
+    font-size: 24px;
+    position: absolute;
+    top: 4.7em;
+    line-height: 28px;
+    width: 214px;
 }
 
+/* второй прямоугольник*/
 
-
-.foto{
-
+.vtor_kvadrat {
+    position: absolute;
+    transform: translate(0%, -25%);
+    background: #FCAD09;
+    width: 1021px;
+    height: 440px;
+    margin-left: 233px;
+}
+.text_vtor_kvadrata {
+    margin-left: 33px;
+    position: absolute;
+    width: 961px;
+    height: 283px;
+    margin-top: 8.5em;
 }
 
-.img-fluid {
-    margin-right: 15rem;
-    max-width: 100%;
-    max-height: 50%;
+.avtor_kursov {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+/* фотография */
+.foto {
+    z-index: 2;
+    position: relative;
+    left: 62px;
+    top: 0px;
+    max-width: 42em;
 }
