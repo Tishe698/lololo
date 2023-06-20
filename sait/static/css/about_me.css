@@ -89,16 +89,19 @@ html, body {
 /* текст справа */
 
 .text_missia {
-    margin-left: 33px;
+    /* margin-left: 1.4em; */
     position: absolute;
-    width: 393px;
-    transform: translate(732px, -575px);
+    width: 13.5em;
+    /* transform: translate(30em, -22.5em); */
     font-family: 'HeadlandOne', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
+    /* font-style: normal; */
+    /* font-weight: 400; */
     line-height: 43px;
     color: rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    font-size: 24px;
+    left: 33em;
+    top: 13em;
 }
 
 /* фотография */
@@ -111,39 +114,37 @@ html, body {
 }
 
 .mnogotexta {
-    margin-left: 33px;
     position: absolute;
-    width: 996px;
-    /* height: 137px; */
-    /* transform: translate(91px, 368px); */
+    width: 35em;
     font-family: 'HeadlandOne', serif;
-    /* font-style: normal; */
-    /* font-weight: 400; */
-    font-size: 27px;
-    margin-left: 107px;
-    line-height: 61px;
-    margin-top: 453px;
+    font-size: 1.8em;
+    margin-left: 4em;
+    line-height: 2em;
+    margin-top: 15em;
     color: rgba(0, 0, 0, 0.66);
+    text-align: justify;
 }
 
 
 .ovalik {
     background: #FCAD09;
     position: absolute;
-    transform: translate(453px, 1668px);
+    transform: translate(25em, 97em);
     border-radius: 215px;
-    width: 413px;
-    height: 86px;
+    width: 26em;
+    height: 5.4em;
 }
 
 .zapis_kons {
     position: absolute;
     color: #FFFFFF;
-    font-size: 27px;;
-    margin-left: 24px;
-    margin-top: 19px;
+    font-size: 1.8em;
+    margin-left: 0.5em;
+    margin-top: 0.7em;
     font-family: 'Headland One', sans-serif;
+    width: 14em;
 }
+
 
 .social {
     display: flex;
