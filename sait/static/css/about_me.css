@@ -89,17 +89,12 @@ html, body {
 /* текст справа */
 
 .text_missia {
-    /* margin-left: 1.4em; */
     position: absolute;
-    width: 13.5em;
-    /* transform: translate(30em, -22.5em); */
     font-family: 'HeadlandOne', serif;
-    /* font-style: normal; */
-    /* font-weight: 400; */
     line-height: 43px;
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
-    font-size: 24px;
+    font-size: 23px;
     left: 33em;
     top: 13em;
 }
