@@ -2,7 +2,7 @@
 html, body {
     width: 100%;
     background: #DCDDD7;
-        font-size: 16px; /* Set your desired base font size */
+    font-size: 16px; /* Set your desired base font size */
 }
 
 
@@ -46,7 +46,7 @@ html, body {
 
 
 .Ludmila_yasina {
-font-family: 'Lora', serif;
+    font-family: 'Lora', serif;
     font-size: 66px;
     color: #FFFFFF;
     line-height: 56px;
@@ -79,7 +79,7 @@ font-family: 'Lora', serif;
 }
 
 .avtor_kursov {
-font-family: 'Lora', serif;
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 35px;
@@ -94,10 +94,10 @@ font-family: 'Lora', serif;
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
     position: absolute;
-    width: 350px;
-    font-size: 1.5rem;
+    width: 374px;
+    font-size: 25px;
     left: 763px;
-    bottom: 200px;
+    bottom: 161px;
     height: auto;
 }
 
@@ -191,7 +191,8 @@ font-family: 'Lora', serif;
 
 @media (max-device-width: 768px) {
     .ovalik {
-    transform: translate(25rem, 108rem);
-}
+        transform: translate(25rem, 108rem);
+        width: 26.1rem;
+    }
 }
 
