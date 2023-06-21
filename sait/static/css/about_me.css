@@ -189,5 +189,9 @@ font-family: 'Lora', serif;
     margin-left: 50px;
 }
 
-
+@media (max-device-width: 768px) {
+    .ovalik {
+    transform: translate(25rem, 108rem);
+}
+}
 
