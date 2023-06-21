@@ -14,7 +14,7 @@ html, body {
 /* подсвечивание ссылок */
 .nav-link {
     text-decoration: none;
-    font-family: 'Lora';
+    font-family: 'Lora', sans-serif;
     color: rgba(0, 0, 0, 0.66);
     position: relative;
     border-radius: 100vh;
