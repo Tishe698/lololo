@@ -89,12 +89,11 @@ html, body {
 
 /* текст справа */
 .btext {
-    position: absolute;
-    width: 333px;
-    height: auto;
-    transform: translate(229%, -155%);
+    position: relative;
+    width: 418px;
+    height: 350px;
+    transform: translate(181%, -142%);
 }
-
 
 .text_missia {
     font-family: 'Headland One', serif;
