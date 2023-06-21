@@ -101,7 +101,6 @@ html, body {
     line-height: 1.5; /* Изменим значение line-height на 1.5, чтобы соответствовать 38px */
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
-    font-size: 23px;
     position: absolute;
     max-width: 100%; /* Добавим свойство max-width: 100%; чтобы ограничить ширину текста родительским элементом */
 }
