@@ -90,15 +90,15 @@ font-family: 'Lora', serif;
 /* текст справа */
 .text_missia {
     font-family: 'Headland One', serif;
-    line-height: 1.4;
+    line-height: 1.5;
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
     position: absolute;
     width: 350px;
-    font-size: 1.4rem; /* Use a relative unit like rem */
+    font-size: 1.5rem;
     left: 763px;
     bottom: 200px;
-    height: auto; /* or remove the height property altogether */
+    height: auto;
 }
 
 /* фотография */
@@ -135,11 +135,11 @@ font-family: 'Lora', serif;
 .zapis_kons {
     position: absolute;
     color: #FFFFFF;
-    font-size: 1.8em;
-    margin-left: 0.5em;
-    margin-top: 0.7em;
+    font-size: 1.8rem;
+    margin-left: 0.5rem;
+    margin-top: 1.2rem;
     font-family: 'Headland One', sans-serif;
-    width: 14em;
+    width: 18em;
 }
 
 
