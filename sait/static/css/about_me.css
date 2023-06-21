@@ -7,6 +7,24 @@ html, body {
     .container{
         max-width: none;
     }
+.nav-link {
+    text-decoration: none;
+    font-family: 'Lora';
+    color: rgba(0, 0, 0, 0.66);
+    position: relative;
+    border-radius: 100vh;
+    background: transparent;
+    transition: background-color 0.3s ease;
+    /* Плавный переход цвета фона */
+}
+
+.nav-link:hover {
+    color: #FFFFFF;
+    background: #FCAD09;
+    box-shadow: 0 0 0 2px orange;
+    /* Замените на желаемый цвет овала и толщину границы */
+    border-radius: 100vh;
+}
 
 /* размер ссылок хедора CSS */
 .ff_header {
