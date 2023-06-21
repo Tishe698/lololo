@@ -90,14 +90,14 @@ html, body {
 /* текст справа */
 .text_missia {
     font-family: 'Headland One', serif;
-    line-height: 1.5;
+    line-height: 1.4;
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
     position: absolute;
-    width: 374px;
-    font-size: 25px;
+    width: 444px;
+    font-size: 29px;
     left: 763px;
-    bottom: 161px;
+    bottom: 153px;
     height: auto;
 }
 
@@ -194,5 +194,11 @@ html, body {
         transform: translate(25rem, 108rem);
         width: 26.1rem;
     }
+
+    .text_missia {
+        font-size: 28px;
+    }
+
 }
+
 
