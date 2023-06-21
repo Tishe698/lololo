@@ -203,14 +203,15 @@ body {
 
 /* Медиа-запрос для планшетов с шириной от 768px */
 @media (min-width: 767px) and (max-width: 991px) {
-    .logo {
-        background: url('../img/логотип для планшетов (1).png') no-repeat;
-        background-size: contain;
-        background-position: center;
-        width: 100%;
-        height: 14em;
-        mix-blend-mode: darken;
-    }
+.logo {
+    background: url('../img/логотип для планшетов (1).png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 350px;
+    height: 200px;
+    mix-blend-mode: darken;
+    margin-left: 226px;
+}
 
     .s {
         display: flex;
