@@ -89,20 +89,21 @@ html, body {
 /* текст справа */
 .block_text_missia {
     max-width: 300px;
-    height: 404px;
+    /* height: 121px; */
     position: relative;
     left: 800px;
     bottom: 497px;
-    overflow: hidden; /* Добавляем свойство overflow: hidden; */
+    /* overflow: hidden; */
 }
 
 .text_missia {
     font-family: 'HeadlandOne', serif;
-    line-height: 1.5; /* Изменим значение line-height на 1.5, чтобы соответствовать 38px */
+    /* line-height: 0.5; */
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
     position: absolute;
-    max-width: 100%; /* Добавим свойство max-width: 100%; чтобы ограничить ширину текста родительским элементом */
+    max-width: 100%;
+    font-size: 20px;
 }
 
 
