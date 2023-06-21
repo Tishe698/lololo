@@ -1,10 +1,11 @@
 
 html, body {
-    width: 100%;
+    min-width: 1200px;
     background: #DCDDD7;
-    font-size: 16px; /* Set your desired base font size */
 }
-
+    .container{
+        max-width: none;
+    }
 
 /* размер ссылок хедора CSS */
 .ff_header {
@@ -193,9 +194,9 @@ html, body {
     color: rgba(0, 0, 0, 0.5);
     margin-left: 50px;
 }
-
-@media (max-device-width: 768px)
+@media (max-width: 768px)
 {
+
     .ovalik {
         transform: translate(25rem, 108rem);
         width: 26.1rem;
@@ -203,8 +204,26 @@ html, body {
     .text_missia {
     }
 
-
-
+}
+@media (min-width: 992px) {
+    .ff_header {
+        font-size: 13.7px;
+        font-family: 'Lora', serif;
+    }
+    .text_missia {
+    font-family: 'Headland One', serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    width: 355px;
+    max-height: 300px;
+    font-size: 1.7em;
+}
 }
 
+@media (min-width: 1440px) {
+    .ff_header {
+        font-size: 15.7px;
+        font-family: 'Lora', serif;
+    }
+}
 
