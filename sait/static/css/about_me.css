@@ -88,17 +88,20 @@ html, body {
 }
 
 /* текст справа */
+.btext {
+    position: absolute;
+    width: 333px;
+    height: auto;
+    transform: translate(229%, -155%);
+}
+
+
 .text_missia {
     font-family: 'Headland One', serif;
     line-height: 1.4;
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
-    position: absolute;
-    width: 444px;
-    font-size: 29px;
-    left: 763px;
-    bottom: 153px;
-    height: auto;
+    font-size: 25px;
 }
 
 /* фотография */
