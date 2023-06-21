@@ -88,13 +88,13 @@ html, body {
 
 /* текст справа */
 .text_missia {
-    font-family: 'HeadlandOne', serif;
+    font-family: 'HeadlandOne';
     /* line-height: 0.5; */
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
     position: absolute;
     width: 350px;
-    font-size: 26px;
+    /* font-size: 10px; */
     left: 800px;
     bottom: 200px;
     height: 387px;
