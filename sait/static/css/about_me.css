@@ -89,17 +89,20 @@ html, body {
 
 /* текст справа */
 .btext {
-    position: relative;
-    width: 418px;
-    height: 360px;
-    transform: translate(181%, -142%);
-        font-size: 25px;
+    position: absolute;
+    /* transform: translate(181%, 0); */
+    margin-left: 775px;
+
+    top: 199px;
 }
 
 .text_missia {
     font-family: 'Headland One', serif;
     color: rgba(0, 0, 0, 0.5);
-    text-align: justify;
+    text-align: left;
+    width: 355px;
+    max-height: 300px;
+    font-size: 2.4vh;
 
 }
 
@@ -191,15 +194,16 @@ html, body {
     margin-left: 50px;
 }
 
-@media (max-device-width: 768px) {
+@media (max-device-width: 768px)
+{
     .ovalik {
         transform: translate(25rem, 108rem);
         width: 26.1rem;
     }
-
     .text_missia {
-        font-size: 27px;
     }
+
+
 
 }
 
