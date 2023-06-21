@@ -2,6 +2,7 @@
 html, body {
     width: 100%;
     background: #DCDDD7;
+        font-size: 16px; /* Set your desired base font size */
 }
 
 
@@ -88,16 +89,16 @@ font-family: 'Lora', serif;
 
 /* текст справа */
 .text_missia {
-font-family: 'Headland One', serif;
-    /* line-height: 0.5; */
+    font-family: 'Headland One', serif;
+    line-height: 1.4;
     color: rgba(0, 0, 0, 0.5);
     text-align: justify;
     position: absolute;
     width: 350px;
-    /* font-size: 10px; */
-    left: 800px;
+    font-size: 1.4rem; /* Use a relative unit like rem */
+    left: 763px;
     bottom: 200px;
-    height: 387px;
+    height: auto; /* or remove the height property altogether */
 }
 
 /* фотография */
