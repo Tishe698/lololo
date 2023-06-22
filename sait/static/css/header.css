@@ -35,7 +35,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../img/logo 1.png");
+    background: url("../img/logo 1.png"), no-repeat;
     max-width: 254px;
     height: 139px;
     background-size: contain;
