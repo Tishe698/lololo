@@ -7,3 +7,6 @@ def index(req):
 
 def about_me(req):
     return render(req, 'about_me.html')
+
+def traning(req):
+    return render(req, 'traning_curse.html')

@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="#"></a></div>
+        <div class="navbar">
+
+            <ul class="links">
+                <li><a href="Обучающие курсы">Обучающие курсы</a></li>
+                <li><a href="Мастер-классы">Мастер-классы</a></li>
+                <li><a href="Бесплатные астрологические продукты">Бесплатные астрологические продукты</a></li>
+                <li><a href="мне">обо мне</a></li>
+                <li><a href="Консультация">Консультация от астролога Людмилы Ясиной</a></li>
+            </ul>
+            <div class="togler_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+        <div class="line"></div>
+        <div class="dropdown_menu ">
+            <li><a href="Обучающие курсы">Обучающие курсы</a></li>
+            <li><a href="Мастер-классы">Мастер-классы</a></li>
+            <li><a href="Бесплатные астрологические продукты">Бесплатные астрологические продукты</a></li>
+            <li><a href="мне">обо мне</a></li>
+            <li><a href="Консультация">Консультация от астролога Людмилы Ясиной</a></li>
+            <li><a href="#" class="action_btn">Записаться на курсы</a></li>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+    <script src='{% static 'js/header.js' %}'></script>
+</body>
+
+</html>
