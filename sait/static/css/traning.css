@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', 'HeadlandOne', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #DCDDD7;;
+    padding: 0 2rem;
+}
+
+
+
+
+/* БЛОК С КУРСАМИ */
+main{
+    width: 1200px;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.sect_block {
+    background-color: #0a53be;
+    max-width: 1200px;
+    height: 70vh;
+    position: relative;
+}
+
+.Traning_curs {
+    position: absolute;
+    background-color: #FCAD09;
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    right: 0px;
+    top: 5rem;
+    justify-content: center;
+}
+
+.Traning_curs h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 3.525vw;
+    font-family: Lora;
+    font-weight: 500;
+    letter-spacing: 1.21875vw;
+    text-transform: uppercase;
+    text-shadow: rgba(0, 0, 0, 0.35) 0 4px 4px;
+}

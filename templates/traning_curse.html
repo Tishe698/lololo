@@ -8,19 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{% static 'fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{% static 'css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'css/traning.css' %}">
     <title>Document</title>
 </head>
 
 <body>
 <header>
-    <div class="logo"><a href="#"></a></div>
+    <a href="{% url 'home' %}"><div class="logo"></div></a>
     <div class="navbar">
 
         <ul class="links">
-            <li><a href="#">Обучающие курсы</a></li>
+            <li><a href="{% url 'traning' %}">Обучающие курсы</a></li>
             <li><a href="#">Мастер-классы</a></li>
             <li><a href="#">Бесплатные астрологические продукты</a></li>
-            <li><a href="#">обо мне</a></li>
+            <li><a href="{% url 'about_me' %}">обо мне</a></li>
             <li><a href="#">Консультация от астролога Людмилы Ясиной</a></li>
         </ul>
         <div class="togler_btn">
@@ -40,7 +41,14 @@
         </ul>
     </div>
 </header>
+<main>
+    <div class="sect_block">
+        <div class="Traning_curs">
+            <h1>ОБУЧАЮЩИЕ КУРСЫ</h1>
+        </div>
 
+    </div>
+</main>
 <script src='{% static "js/header.js" %}'></script>
 </body>
 

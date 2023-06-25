@@ -5,17 +5,13 @@
     font-family: 'Lora', 'HeadlandOne';
 }
 
-body {
-    height: 100vh;
-    background-color: #DCDDD7;;
-}
 
 li {
     list-style: none;
 }
 
 a {
-    font-size: 1rem;
+    font-size: 2vh;
     color: rgba(0, 0, 0, 0.66);
     text-decoration: none;
 }
@@ -24,10 +20,13 @@ a:hover {
     color: orange;
 }
 
+
+
+
 /* Header */
 header {
     position: relative;
-    padding: 0 2rem;
+
 }
 
 .logo {
@@ -35,7 +34,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../img/logo 1.png"), no-repeat;
+    background: url("../img/logo 1.png") no-repeat,none ;
     max-width: 254px;
     height: 139px;
     background-size: contain;
