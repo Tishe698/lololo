@@ -23,10 +23,7 @@ main{
 }
 
 .sect_block {
-    background-color: #0a53be;
     max-width: 1200px;
-    height: 70vh;
-    position: relative;
 }
 
 .Traning_curs {
@@ -36,7 +33,7 @@ main{
     display: flex;
     flex-direction: row-reverse;
     right: 0px;
-    top: 5rem;
+    top: 7%;
     justify-content: center;
 }
 
@@ -49,4 +46,49 @@ main{
     letter-spacing: 1.21875vw;
     text-transform: uppercase;
     text-shadow: rgba(0, 0, 0, 0.35) 0 4px 4px;
+}
+
+.block_kart{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.block_kart img {
+    object-fit: cover;
+    width: 29%;
+    padding: 14% 1.2% 0 0%;
+    z-index: 2;
+}
+
+.kvadrat_kartinki {
+    position: absolute;
+    background-color: #FCAD09;
+    width: 80%;
+    height: 9vw;
+    right: 0px;
+    top: 49%;
+    display: block;
+}
+
+.ho4y_kurs {
+    display: flex;
+    width: 35vw;
+    height: 6vw;
+    border-radius: 50px;
+    background: #FCAD09;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9%;
+}
+.ho4y_kurs p {
+    color: #FFF;
+    /* text-align: center; */
+    font-size: 2.625vw;
+    font-family: Lora;
+    font-weight: 700;
+    letter-spacing: 0.60375vw;
+    text-transform: uppercase;
 }

@@ -14,7 +14,9 @@
 
 <body>
 <header>
-    <a href="{% url 'home' %}"><div class="logo"></div></a>
+    <a href="{% url 'home' %}">
+        <div class="logo"></div>
+    </a>
     <div class="navbar">
 
         <ul class="links">
@@ -46,7 +48,15 @@
         <div class="Traning_curs">
             <h1>ОБУЧАЮЩИЕ КУРСЫ</h1>
         </div>
-
+        <div class="block_kart">
+            <img src="{% static 'img/traning/AstroSTART.jpg' %}" alt="" class="AstroSTRART_IMG">
+            <img src="{% static 'img/traning/астрология просто.jpg' %}" alt="" class="Asto_prost_IMG">
+            <img src="{% static 'img/traning/финансы и богатс.jpg' %}" alt="" class="Finans_bogat_IMG">
+        </div>
+        <div class="kvadrat_kartinki"></div>
+        <div class="ho4y_kurs">
+            <p>хочу на курс!</p>
+        </div>
     </div>
 </main>
 <script src='{% static "js/header.js" %}'></script>
