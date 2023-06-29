@@ -11,7 +11,7 @@ li {
 }
 
 a {
-    font-size: 2vh;
+    font-size: 1.7vh;
     color: rgba(0, 0, 0, 0.66);
     text-decoration: none;
 }
@@ -115,8 +115,8 @@ header {
 }
 
 .line {
-    width: 80%;
-    max-width: 878px;
+    width: 57%;
+    max-width: 823px;
     height: 0.1875rem;
     background-color: rgba(0, 0, 0, 0.27);
     margin: 0 auto;
