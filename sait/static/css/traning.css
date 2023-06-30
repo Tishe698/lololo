@@ -7,14 +7,16 @@
 }
 
 body {
-    height: 100vh;
+    height: 400vh;
     background-color: #DCDDD7;;
     padding: 0 2rem;
 }
 
 
+
+
 /* БЛОК С КУРСАМИ */
-main {
+main{
     width: 1200px;
     max-width: 100%;
     position: relative;
@@ -44,7 +46,7 @@ main {
     text-shadow: rgba(0, 0, 0, 0.35) 0 4px 4px;
 }
 
-.block_kart {
+.block_kart{
 
     display: flex;
     justify-content: center;
@@ -77,7 +79,6 @@ main {
     justify-content: center;
     margin-top: 9%;
 }
-
 .ho4y_kurs p {
     color: #FFF;
     /* text-align: center; */
@@ -88,7 +89,7 @@ main {
     text-transform: uppercase;
 }
 
-.zapis_kurs {
+.zapis_kurs{
     text-align: center;
 
 }
@@ -101,9 +102,8 @@ main {
     padding-top: 2%;
     line-height: 60%;
 }
-
-.new_line {
-    display: block;
+.new_line{
+display: block;
 }
 
 
@@ -119,23 +119,22 @@ main {
     max-width: 1200px;
 }
 
-.kurs_astroSTART {
+.kurs_astroSTART{
     text-align: center;
     margin-top: 10%;
 }
 
-.kurs_astroSTART p {
+.kurs_astroSTART p{
     font-size: 3vw;
     font-family: Lora;
     font-weight: 400;
 }
 
-.pro_astrostart {
+.pro_astrostart{
     text-align: center;
     margin-top: 4%;
 }
-
-.pro_astrostart p {
+.pro_astrostart p{
     font-size: 2.5vw;
     font-family: Lora;
     font-weight: 400;
@@ -143,7 +142,7 @@ main {
     letter-spacing: 0.5vh;
 }
 
-.lico_astroST {
+.lico_astroST{
     display: flex;
     justify-content: center;
 }
@@ -154,7 +153,6 @@ main {
     padding: 6% 1.2% 0 0%;
 
 }
-
 /* план обучения*/
 .plan_obuchenia {
     justify-content: center;
@@ -162,33 +160,34 @@ main {
     margin-top: 2%;
 }
 
-.plan_obuchenia p {
+.plan_obuchenia p{
     font-size: 3vw;
     font-family: Lora;
 }
 
-.section {
+  .section {
     display: flex;
     align-items: center;
     margin-top: 2%;
 
-}
+  }
 
-.section h1 {
+  .section h1 {
     color: rgba(0, 0, 0, 0.66);
     font-family: Lora;
     margin-right: 4%;
     font-size: 4vw;
-}
+  }
 
-.section p {
+  .section p {
     text-align: justify;
     font-size: 2.5vw;
     font-family: Lora;
-}
+  }
 
 
-.zapistsa {
+
+  .zapistsa {
     display: flex;
     width: 35vw;
     height: 6vw;
@@ -199,7 +198,6 @@ main {
     justify-content: center;
     margin-top: 9%;
 }
-
 .zapistsa p {
     color: #FFF;
 
@@ -209,5 +207,121 @@ main {
     letter-spacing: 0.60375vw;
     text-transform: uppercase;
 }
+    /* конец второго блока*/
 
+    /* третий блок*/
+
+.treti_block{
+    max-width: 1200px;
+}
+
+.finasy_bogatstvo{
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+}
+.finasy_bogatstvo p{
+    font-size: 3vw;
+    font-family: Lora;
+    font-weight: 400;
+}
+
+.nakurse_uznaem{
+    margin: 5% 0 0 7%;
+    font-size: 2.5vw;
+    font-family: Lora;
+    font-weight: 400;
+}
+
+.nakurse_uznaem p{
+    font-family: Lora;
+    font-weight: 400;
+}
+
+.punkty{
+    margin: 3% 0 0 0%;
+}
+
+.punkty p{
+    font-family: Lora;
+    font-weight: 400 ;
+    font-size: 2.4vw;
+    margin-bottom: 1%;
+}
+
+.lico_finansy{
+display: flex;
+justify-content: flex-end;
+}
+
+.lico_finansy img {
+    object-fit: cover;
+    width: 45%;
+    margin: 5% 2% 0 0;
+}
+
+.punkty2{
+    justify-content: space-around;
+    display: flex;
+    font-size: 2.3vw;
+    flex-direction: column;
+}
+.punkty2 p{
+font-family: Lora;
+}
+
+
+.krasivie_punkty {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.kvadrat_kras_punkt {
+    position: relative; /* Add relative positioning */
+    width: 50vw;
+    height: 7vw;
+    background-color: #FCAD09;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 5% 2% 0 0;
+}
+
+.kvadrat_kras_punkt p {
+    color: #FFF;
+    font-size: 2.4vw;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 7%;
+    line-height: 1.2em;
+    letter-spacing: 0.14em;
+}
+
+.cifra {
+    position: absolute;
+    bottom: 0.8vw;
+    right: 96%;
+}
+
+.cifra h1 {
+    font-family: Lora;
+    color: rgba(0, 0, 0, 0.53);
+    font-size: 8vw;
+}
+
+.result5ned p {
+    font-size: 2.4vw;
+    font-family: Lora;
+    margin-top: 10%;
+    line-height: 1.6em;
+    letter-spacing: 0.1em;
+}
+
+.result5ned p{
+    font-size: 2vw;
+    font-family: Lora;
+}
     /* конец второго блока*/
