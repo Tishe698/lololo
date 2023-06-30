@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 400vh;
     background-color: #DCDDD7;;
     padding: 0 2rem;
 }
@@ -37,7 +37,7 @@ main {
 .Traning_curs h1 {
     color: #FFF;
     font-size: 3.525vw;
-    font-family: Lora;
+    font-family: 'Lora', serif;
     font-weight: 500;
     letter-spacing: 1vw;
     text-transform: uppercase;
@@ -82,7 +82,7 @@ main {
     color: #FFF;
     /* text-align: center; */
     font-size: 2.625vw;
-    font-family: Lora;
+    font-family: 'Lora', serif;
     font-weight: 500;
     letter-spacing: 0.60375vw;
     text-transform: uppercase;
@@ -95,7 +95,7 @@ main {
 
 .zapis_kurs p {
     font-size: 3vw;
-    font-family: Lora;
+    font-family: 'Lora', serif;
     font-style: normal;
     font-weight: 400;
     padding-top: 2%;
@@ -126,7 +126,7 @@ main {
 
 .kurs_astroSTART p {
     font-size: 3vw;
-    font-family: Lora;
+    font-family: 'Lora', serif;
     font-weight: 400;
 }
 
@@ -137,7 +137,7 @@ main {
 
 .pro_astrostart p {
     font-size: 2.5vw;
-    font-family: Lora;
+    font-family: 'Lora', serif;
     font-weight: 400;
     line-height: 3.5vw;
     letter-spacing: 0.5vh;
@@ -164,7 +164,7 @@ main {
 
 .plan_obuchenia p {
     font-size: 3vw;
-    font-family: Lora;
+    font-family: 'Lora', serif;
 }
 
 .section {
@@ -176,7 +176,7 @@ main {
 
 .section h1 {
     color: rgba(0, 0, 0, 0.66);
-    font-family: Lora;
+    font-family: 'Lora', serif;
     margin-right: 4%;
     font-size: 4vw;
 }
@@ -184,7 +184,7 @@ main {
 .section p {
     text-align: justify;
     font-size: 2.5vw;
-    font-family: Lora;
+    font-family: 'Lora', serif;
 }
 
 
@@ -204,10 +204,130 @@ main {
     color: #FFF;
 
     font-size: 2.625vw;
-    font-family: Lora;
+    font-family: 'Lora', serif;
     font-weight: 500;
     letter-spacing: 0.60375vw;
     text-transform: uppercase;
 }
 
-    /* конец второго блока*/
+/* конец второго блока*/
+
+/* третий блок*/
+
+.treti_block {
+    max-width: 1200px;
+}
+
+.finasy_bogatstvo {
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+.finasy_bogatstvo p {
+    font-size: 3vw;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.nakurse_uznaem {
+    margin: 5% 0 0 7%;
+    font-size: 2.5vw;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.nakurse_uznaem p {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.punkty {
+    margin: 3% 0 0 0%;
+}
+
+.punkty p {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 2.4vw;
+    margin-bottom: 1%;
+}
+
+.lico_finansy {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lico_finansy img {
+    object-fit: cover;
+    width: 45%;
+    margin: 5% 2% 0 0;
+}
+
+.punkty2 {
+    justify-content: space-around;
+    display: flex;
+    font-size: 2.3vw;
+    flex-direction: column;
+}
+
+.punkty2 p {
+    font-family: 'Lora', serif;
+}
+
+
+.krasivie_punkty {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.kvadrat_kras_punkt {
+    position: relative; /* Add relative positioning */
+    width: 50vw;
+    height: 7vw;
+    background-color: #FCAD09;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 5% 2% 0 0;
+}
+
+.kvadrat_kras_punkt p {
+    color: #FFF;
+    font-size: 2.4vw;
+    font-family: 'Lora', serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 7%;
+    line-height: 1.2em;
+    letter-spacing: 0.14em;
+}
+
+.cifra {
+    position: absolute;
+    bottom: 0.8vw;
+    right: 96%;
+}
+
+.cifra h1 {
+    font-family: 'Lora', serif;
+    color: rgba(0, 0, 0, 0.53);
+    font-size: 8vw;
+}
+
+.result5ned p {
+    font-size: 2.4vw;
+    font-family: 'Lora', serif;
+    margin-top: 10%;
+    line-height: 1.6em;
+    letter-spacing: 0.1em;
+}
+
+.result5ned p {
+    font-size: 2vw;
+    font-family: 'Lora', serif;
+}
+
+/* конец второго блока*/
