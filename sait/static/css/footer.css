@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer {
+    position: relative;
+    padding: 0;
+    margin-top: 17%;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.social img{
+    width: 3vw;
+    margin-bottom: 3%;
+}
+
+.krug {
+    background: #FCAD09;
+    position: absolute;
+    border-radius: 4vw;
+    width: 6vw;
+    height: 6vw;
+    right: 3vw;
+    top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vopros {
+    font-family: 'HeadlandOne', serif ;
+    color: #FFFFFF;
+    font-size: 6vw;
+
+}
+
+.avtor_prava {
+    background: #FCAD09;
+}
+.text_prav {
+    font-family: 'HeadlandOne', serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 6%;
+}

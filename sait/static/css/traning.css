@@ -37,7 +37,7 @@ main {
 .Traning_curs h1 {
     color: #FFF;
     font-size: 3.525vw;
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     font-weight: 500;
     letter-spacing: 1vw;
     text-transform: uppercase;
@@ -54,7 +54,7 @@ main {
 .block_kart img {
     object-fit: cover;
     width: 29%;
-    padding: 14% 1.2% 0 0%;
+    padding: 14% 1.2% 0 0;
     z-index: 2;
 }
 
@@ -62,8 +62,8 @@ main {
     position: absolute;
     background-color: #FCAD09;
     width: 80%;
-    height: 3%;
-    margin: 48% 0% 20% 21%;
+    height: 7vw;
+    margin: 48% 0 20% 21%;
 }
 
 .ho4y_kurs {
@@ -82,7 +82,7 @@ main {
     color: #FFF;
     /* text-align: center; */
     font-size: 2.625vw;
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     font-weight: 500;
     letter-spacing: 0.60375vw;
     text-transform: uppercase;
@@ -95,11 +95,10 @@ main {
 
 .zapis_kurs p {
     font-size: 3vw;
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     font-style: normal;
     font-weight: 400;
     padding-top: 2%;
-    line-height: 60%;
 }
 
 .new_line {
@@ -126,7 +125,7 @@ main {
 
 .kurs_astroSTART p {
     font-size: 3vw;
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     font-weight: 400;
 }
 
@@ -137,7 +136,7 @@ main {
 
 .pro_astrostart p {
     font-size: 2.5vw;
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     font-weight: 400;
     line-height: 3.5vw;
     letter-spacing: 0.5vh;
@@ -151,7 +150,7 @@ main {
 .lico_astroST img {
     object-fit: cover;
     width: 73%;
-    padding: 6% 1.2% 0 0%;
+    padding: 6% 1.2% 0 0;
 
 }
 
@@ -164,7 +163,7 @@ main {
 
 .plan_obuchenia p {
     font-size: 3vw;
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
 }
 
 .section {
@@ -176,7 +175,7 @@ main {
 
 .section h1 {
     color: rgba(0, 0, 0, 0.66);
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     margin-right: 4%;
     font-size: 4vw;
 }
@@ -184,7 +183,7 @@ main {
 .section p {
     text-align: justify;
     font-size: 2.5vw;
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
 }
 
 
@@ -204,7 +203,7 @@ main {
     color: #FFF;
 
     font-size: 2.625vw;
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     font-weight: 500;
     letter-spacing: 0.60375vw;
     text-transform: uppercase;
@@ -226,28 +225,28 @@ main {
 
 .finasy_bogatstvo p {
     font-size: 3vw;
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     font-weight: 400;
 }
 
 .nakurse_uznaem {
     margin: 5% 0 0 7%;
     font-size: 2.5vw;
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     font-weight: 400;
 }
 
 .nakurse_uznaem p {
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     font-weight: 400;
 }
 
 .punkty {
-    margin: 3% 0 0 0%;
+    margin: 3% 0 0 0;
 }
 
 .punkty p {
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     font-weight: 400;
     font-size: 2.4vw;
     margin-bottom: 1%;
@@ -272,7 +271,7 @@ main {
 }
 
 .punkty2 p {
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
 }
 
 
@@ -283,7 +282,7 @@ main {
 }
 
 .kvadrat_kras_punkt {
-    position: relative; /* Add relative positioning */
+    position: relative;
     width: 50vw;
     height: 7vw;
     background-color: #FCAD09;
@@ -296,13 +295,13 @@ main {
 
 .kvadrat_kras_punkt p {
     color: #FFF;
-    font-size: 2.3vw;
-    font-family: 'Lora', serif;
+    font-size: 2.4vw;
+    font-family: Lora, serif;
     font-style: normal;
     font-weight: 300;
     padding-left: 7%;
-    line-height: 3vw;
-    letter-spacing: 0.1vw;
+    line-height: 1.2em;
+    letter-spacing: 0.14em;
 }
 
 .cifra {
@@ -312,18 +311,173 @@ main {
 }
 
 .cifra h1 {
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     color: rgba(0, 0, 0, 0.53);
     font-size: 8vw;
 }
 
 .result5ned p {
     font-size: 2.4vw;
-    font-family: 'Lora', serif;
+    font-family: Lora, serif;
     margin-top: 10%;
     line-height: 3.6vw;
     letter-spacing: 0.1vw;
 }
 
+/* четвертый блок */
 
-/* конец второго блока*/
+
+.chetvert_block {
+    max-width: 1200px;
+}
+
+.Astrolog_prosto {
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+.Astrolog_prosto p {
+    font-size: 3vw;
+    font-family: Lora, serif;
+    font-weight: 400;
+}
+
+.pro_astro_prosto {
+    text-align: center;
+    margin-top: 4%;
+}
+
+.pro_astro_prosto p {
+    font-size: 2.5vw;
+    font-family: Lora, serif;
+    font-weight: 400;
+    line-height: 3.5vw;
+    letter-spacing: 0.5vh;
+}
+
+.nakurse_nauchimsy {
+    margin: 5% 0 4% 26%;
+    font-size: 2.5vw;
+    font-family: Lora, serif;
+    font-weight: 400;
+    letter-spacing: 0.28vw;
+}
+
+.nakurse_nauchimsy p {
+    font-family: Lora, serif;
+    font-weight: 400;
+}
+
+.lico_astro_prosto {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.lico_astro_prosto img {
+    object-fit: cover;
+    width: 42vw;
+    margin: 0 2% 0 0;
+}
+
+.punkty_astro_prosto {
+    justify-content: space-around;
+    display: flex;
+    font-size: 2.3vw;
+    flex-direction: column;
+    margin-left: 1%;
+}
+
+.punkty_astro_prosto p {
+    font-family: Lora, serif;
+    margin-bottom: 1%;
+}
+
+.krasivie_punkty_2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.kvadrat_kras_punkt_2 {
+    position: relative;
+    width: 29vw;
+    height: 7vw;
+    background-color: #FCAD09;
+    display: flex;
+    align-items: center;
+    margin: 5% 2% 0 0;
+}
+
+.cifra_2 {
+    position: absolute;
+    top: -5vw;
+    font-weight: 600;
+    left: 2vw;
+}
+
+.cifra_2 h1 {
+    font-family: Lora, serif;
+    color: rgba(0, 0, 0, 0.53);
+    font-size: 13vw;
+}
+
+.cifra_2 p {
+    font-family: Lora, serif;
+    color: rgba(0, 0, 0, 0.53);
+    font-size: 6vw;
+    position: absolute;
+    top: 4vw;
+    left: 6vw;
+    letter-spacing: 1vw;
+    font-weight: 400;
+    padding-left: 0.5vw;
+}
+
+.Text_k_modulym {
+    font-size: 2.33vw;
+    font-family: Lora, serif;
+    margin-top: 6%;
+    line-height: 3.6vw;
+    letter-spacing: 0.1vw;
+}
+
+
+.kak_pohod_obuch {
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+.kak_pohod_obuch p {
+    font-size: 3vw;
+    font-family: Lora, serif;
+    font-weight: 400;
+    margin-bottom: 10%;
+}
+
+
+.text_kakprohodit_obuchen h1 {
+    font-size: 2.55vw;
+    font-family: Lora, serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.text_kakprohodit_obuchen p {
+    font-size: 2.5vw;
+    font-family: Lora, serif;
+    font-weight: 400;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.linebott1sect_obuch {
+    margin: 3% 20% 5% 16%;
+    background-color: rgba(0, 0, 0, 0.27);
+    height: 0.1875rem;
+    width: 68%;
+}
