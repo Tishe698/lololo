@@ -7,7 +7,6 @@
 }
 
 body {
-    height: 400vh;
     background-color: #DCDDD7;;
     padding: 0 2rem;
 }
@@ -15,14 +14,12 @@ body {
 
 /* БЛОК С КУРСАМИ */
 main {
-    width: 1200px;
-    max-width: 100%;
     position: relative;
     margin: 0 auto;
 }
 
 .sect_block {
-    max-width: 1200px;
+
 }
 
 .Traning_curs {
@@ -80,7 +77,6 @@ main {
 
 .ho4y_kurs p {
     color: #FFF;
-    /* text-align: center; */
     font-size: 2.625vw;
     font-family: Lora, serif;
     font-weight: 500;
@@ -115,7 +111,6 @@ main {
 
 /*  окончание первого блока*/
 .vtor_block {
-    max-width: 1200px;
 }
 
 .kurs_astroSTART {
@@ -214,7 +209,6 @@ main {
 /* третий блок*/
 
 .treti_block {
-    max-width: 1200px;
 }
 
 .finasy_bogatstvo {
@@ -328,7 +322,6 @@ main {
 
 
 .chetvert_block {
-    max-width: 1200px;
 }
 
 .Astrolog_prosto {
@@ -377,7 +370,7 @@ main {
 
 .lico_astro_prosto img {
     object-fit: cover;
-    width: 42vw;
+    width: 54%;
     margin: 0 2% 0 0;
 }
 
