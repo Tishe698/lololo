@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lora', 'HeadlandOne', sans-serif;
 
 }
 
 body {
     background-color: #DCDDD7;;
-    padding: 0 2rem;
+    padding: 0 0.1rem;
 }
 
 
