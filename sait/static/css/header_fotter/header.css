@@ -18,6 +18,7 @@ a {
     transition: background-color 0.3s ease;
     font-size: 1.3vw;
     padding: 0.4vw;
+    -webkit-tap-highlight-color: transparent;
 }
 
 a:hover {
@@ -26,10 +27,12 @@ a:hover {
     background: #FCAD09;
     box-shadow: 0 0 0 2px orange;
     border-radius: 100px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 a:active {
     outline: none; /* Remove default outline style */
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* Header */
