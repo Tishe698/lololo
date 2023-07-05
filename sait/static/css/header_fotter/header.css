@@ -1,24 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lora', 'HeadlandOne';
 }
 
-
-li{
+li {
     list-style: none;
 }
-a{
-    color: rgba(0, 0, 0, 0.66);
+
+a {
     text-decoration: none;
-}
-a:hover{
-    color: orange;
+    font-family: 'Lora';
+    color: rgba(0, 0, 0, 0.66);
+    position: relative;
+    border-radius: 100px;
+    background: transparent;
+    transition: background-color 0.3s ease;
+    font-size: 1.3vw;
+    padding: 0.4vw;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #FCAD09;
+    box-shadow: 0 0 0 2px orange;
+    border-radius: 100px;
+}
+
+
 /* Header */
-header{
+header {
     position: relative;
     padding: 0;
 }
@@ -28,7 +41,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../img/logo 1.png") no-repeat,none ;
+    background: url("../../img/logo 1.png") no-repeat, none;
     max-width: 254px;
     height: 139px;
     background-size: contain;
@@ -44,11 +57,11 @@ header{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    margin-bottom: 2%;
 }
 
 .navbar .links {
     display: flex;
-    gap: 1rem;
 }
 
 .navbar .togler_btn {
@@ -108,8 +121,7 @@ header{
 }
 
 .line {
-    width: 57%;
-    max-width: 823px;
+    width: 62%;
     height: 0.1875rem;
     background-color: rgba(0, 0, 0, 0.27);
     margin: 0 auto;
@@ -133,4 +145,3 @@ header{
         display: none;
     }
 }
-
