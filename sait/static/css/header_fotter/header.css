@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lora', 'HeadlandOne';
 }
 
 li {
@@ -11,7 +10,7 @@ li {
 
 a {
     text-decoration: none;
-    font-family: 'Lora';
+    font-family: 'Lora', serif;
     color: rgba(0, 0, 0, 0.66);
     border-radius: 100px;
     background: transparent;
@@ -45,8 +44,8 @@ header {
     align-items: center;
     justify-content: center;
     background: url("../../img/logo 1.png") no-repeat, none;
-    max-width: 254px;
-    height: 139px;
+    width: 27vw;
+    height: 14vw;
     background-size: contain;
     background-position: center;
     mix-blend-mode: darken;

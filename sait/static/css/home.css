@@ -1,411 +1,67 @@
-
-
-body {
-    background: url('../img/фон боди.jpg') no-repeat;
-    background-size: cover;
-    font-family: 'Lora', sans-serif;
-    height: 100%;
-
-    /* Добавьте дополнительные стили по вашему выбору */
-}
-
 * {
     margin: 0;
-}
-
-
-
-.foto {
-    background: url(../img/тело.jpg) no-repeat;
-    background-size: contain;
-    width: 100vh;
-    height: 100vh;
-    mix-blend-mode: darken;
-}
-
-.s {
-    display: flex;
-}
-
-
-.logo {
-    background: url('../img/logo 1.png') no-repeat;
-    width: 19rem;
-    height: 10em;
-    mix-blend-mode: darken;
-}
-
-.container-fluid {
     padding: 0;
+    box-sizing: border-box;
+
 }
-
-.line {
-    width: 48em;
-    border: 2px solid rgba(0, 0, 0, 0.27);
-    top: -2.6em;
-    position: relative;
-    left: 11.8em;
-}
-
-
-
-.social {
-    display: flex;
-    flex-direction: column;
-    margin-left: 2em;
-    margin-top: 7em;
-}
-
-.col-auto {
-    margin-bottom: 2em;
-}
-
-
-.nav-link {
-    text-decoration: none;
-    font-family: 'Lora';
-    color: rgba(0, 0, 0, 0.66);
-    position: relative;
-    border-radius: 0px;
-    background: transparent;
-    transition: background-color 0.3s ease;
-    /* Плавный переход цвета фона */
-}
-
-.nav-link:hover {
-    color: #FFFFFF;
-    background: #FCAD09;
-    box-shadow: 0 0 0 2px orange;
-    /* Замените на желаемый цвет овала и толщину границы */
-    border-radius: 0px;
-}
-
-footer {
-    background-color: #DCDDD7;
-    ;
-    font-family: 'HeadlandOne';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 50px;
-    /* or 250% */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.08em;
-}
-
-/* Медиа-запрос для мобильных устройств с шириной от 280px до 767px */
-@media (min-width: 280px) and (max-width: 767px) {
 
 body {
-    background: url('../img/фон боди.jpg') no-repeat;
-    font-family: 'Lora', sans-serif;
-    height: 100%;
-    /* Добавьте дополнительные стили по вашему выбору */
-}
-    .slogan {
-        left: 193px;
-        top: 570px;
-        font-family: 'Lora';
-        font-size: 2.6vh;
-        color: rgba(0, 0, 0, 0.58);
-
-    }
-
-    .hidden-content {}
-
-    .foto {
-        display: none;
-    }
-
-    /* остальные стили */
-
-    .logo {
-        background: url('../img/logo 1.png') no-repeat;
-        background-size: 17rem 9em;
-        mix-blend-mode: darken;
-    }
-
-    .nav-link {
-        text-decoration: none;
-        font-family: 'Lora';
-        color: rgba(0, 0, 0, 0.66);
-        position: relative;
-        border-radius: 0;
-        background: transparent;
-        transition: background-color 0.3s ease;
-        /* Плавный переход цвета фона */
-    }
-
-
-    .nav-link:hover {
-        color: #FFFFFF;
-        background: #FCAD09;
-        box-shadow: 0 0 0 2px orange;
-        /* Замените на желаемый цвет овала и толщину границы */
-        border-radius: 0;
-    }
-
-    .line {
-        display: none;
-    }
-
-    .foto {
-        width: 20em;
-    }
-
-    .skola {
-        background: rgb(252, 173, 9);
-        font-family: Lora;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 2em;
-        line-height: 7vh;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        text-transform: uppercase;
-        font-feature-settings: "case";
-        color: rgb(255, 255, 255);
-        border: 1px solid rgb(255, 255, 255);
-        text-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px;
-    }
-
-    .social {
-        /* display: flex; */
-        flex-direction: row;
-        margin-left: 2em;
-    }
-
-    .col-auto {
-        margin-bottom: 2em;
-
-    }
-
-    .social img {
-        margin-right: 7vh;
-    }
-}
-
-
-
-
-
-
-/* Медиа-запрос для планшетов с шириной от 768px */
-@media (min-width: 767px) and (max-width: 991px) {
-.logo {
-    background: url('../img/логотип для планшетов (1).png') no-repeat;
-    background-size: contain;
+    background: url('../img/фон боди.jpg')no-repeat, none;
+    background-size: cover;
     background-position: center;
-    width: 350px;
-    height: 200px;
-    mix-blend-mode: darken;
-    margin-left: 226px;
+    padding: 0 0.1rem;
 }
 
-    .s {
-        display: flex;
-        font-size: 1.9em;
-        flex-direction: column;
-        /* align-content: flex-start; */
-    }
-
-    .nav-item {
-        margin-right: 50%;
-    }
-
-    .container-fluid {
-        margin-top: 10px;
-    }
-
-    .w-100 {
-        width: 100% !important;
-    }
-
-    .line {
-        display: none;
-    }
-
-    .foto {
-        background: url(../img/тело.jpg) no-repeat;
-        background-size: contain;
-        min-width: 10em;
-        height: 100vh;
-        mix-blend-mode: darken;
-
-    }
-
-    .skola {
-        background: rgb(252, 173, 9);
-        font-family: Lora;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 5.3vh;
-        line-height: 7vh;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        text-transform: uppercase;
-        font-feature-settings: "case";
-        color: rgb(255, 255, 255);
-        border: 1px solid rgb(255, 255, 255);
-        text-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px;
-        width: 43vh;
-        width: 100%;
-    }
-
-    .navbar-toggler-icon {
-        width: 2.5em;
-        height: 2.5em;
-
-    }
-
-    .nav-link {
-
-        font-size: 10em;
-        font-size: 1.8em;
-        margin-left: 2.5em;
-    }
-
-    .slogan {
-        font-family: 'Lora';
-        font-size: 3vh;
-        color: rgba(0, 0, 0, 0.58);
-
-    }
-    .social {
-        /* display: flex; */
-        flex-direction: row;
-        margin-left: 2em;
-    }
-    .social img {
-        margin-right: 9vh;
-        height: 6vh
-    }
+.home{
+    margin-bottom: 10%;
+}
+main {
+    position: relative;
+    margin: 0 auto;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-    .logo {
-        background: url('../img/logo 1.png') no-repeat;
-        background-size: contain;
-        background-position: center;
-        width: 39vh;
-        height: 22vh;
-        mix-blend-mode: darken;
-    }
-
-    .collapse {
-        margin-left: 0.70%;
-        font-size: 0.75em;
-
-    }
-
-    .foto {
-        min-width: 10em;
-    }
-
-    .container-fluid {
-        padding: 0;
-        bottom: 0.4em;
-        position: relative;
-    }
-
-    .line {
-        width: 45em;
-        border: 2px solid rgba(0, 0, 0, 0.27);
-        top: -3.1em;
-        position: relative;
-        left: 16em;
-    }
-
-.skola {
-    width: 14em;
-    height: 5em;
-    background: rgb(252, 173, 9);
-    font-family: Lora;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2.8em;
-    line-height: 49px;
+.shkola_ved_astrolog {
+    margin-top: 3%;
+    background-color: #FCAD09;
+    width: 44vw;
+    height: 12vw;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+}
+
+.shkola_ved_astrolog p {
     text-transform: uppercase;
-    font-feature-settings: "case";
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
-    text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+    font-size: 2.7vw;
+    font-family: 'Lora', serif;
+    color: #FFF;
+    text-shadow: rgba(0, 0, 0, 0.35) 0 2.5px;
+    font-weight: 500;
 }
 
-    .slogan {
-        left: 193px;
-        top: 570px;
-        font-family: 'Lora';
-        font-size: 2.6vh;
-        color: rgba(0, 0, 0, 0.58);
-
-    }
-
-    .social {
-        flex-direction: column;
-        margin-left: 2em;
-        margin-top: -15em;
-    }
-
+.text_raskroite {
+    margin: 4% 0 0 9%;
+    width: 34vw;
+    height: 10vw;
 }
 
-
-
-@media (min-width: 1200px) {
-    .line {
-        width: 58rem;
-        border: 2px solid rgba(0, 0, 0, 0.27);
-        top: -3em;
-        position: relative;
-        left: 18.8em;
-    }
-
-    .foto {
-        min-width: 20em;
-    }
-
-    .skola {
-        width: 15em;
-        height: 4em;
-        background: rgb(252, 173, 9);
-        font-family: Lora;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 7vh;
-        line-height: 7vh;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        text-transform: uppercase;
-        font-feature-settings: "case";
-        color: rgb(255, 255, 255);
-        border: 1px solid rgb(255, 255, 255);
-        text-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
-    }
-
-    .slogan {
-        width: 23em;
-        height: 10em;
-        left: 193px;
-        top: 570px;
-        font-family: 'Lora';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 5vh;
-        line-height: 9vh;
-        /* display: flex; */
-        align-items: center;
-        color: rgba(0, 0, 0, 0.58);
-        display: flex;
-    }
-
-
+.text_raskroite p{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 2vw;
+}
+.telo{
+    display: flex;
+    justify-content: flex-end;
+}
+.telo img {
+    object-fit: cover;
+    width: 29vw;
+    mix-blend-mode: darken;
+    position: absolute;
+    right: 19vw;
+    height: 54vw;
+    top: 24vw;
 }

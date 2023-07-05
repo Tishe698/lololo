@@ -1,74 +1,86 @@
+{% load static %}
 <!DOCTYPE html>
-{% load static %}  <!-- Загрузка тегов статических файлов Django -->
-
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>L-ASTROPROEKT</title>
-    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-    <!-- Использование тега static для подключения CSS -->
-    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/home.css'%}">
+    <link rel="stylesheet" href="{% static 'css/header_fotter/header.css'%}">
+    <link rel="stylesheet" href="{% static 'css/header_fotter/footer.css'%}">
+
 </head>
 
 <body>
-<header>
-    <nav class="navbar navbar-light navbar-expand-lg">
-        <a href="{% url 'home' %}">
-            <div class="logo col-12 col-sm-auto"></div>
+
+<main>
+    <header>
+    <a href="{% url 'home' %}">
+            <div class="logo"></div>
         </a>
-        <!-- Добавлен класс "w-100" -->
-        <div class="container-fluid">
-            <div>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navcol-1" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+        <div class="navbar">
+
+            <ul class="links">
+            <li><a href="{% url 'traning' %}">Обучающие курсы</a></li>
+            <li><a href="#">Мастер-классы</a></li>
+            <li><a href="#">Бесплатные астрологические продукты</a></li>
+            <li><a href="{% url 'about_me' %}">Обо мне</a></li>
+            <li><a href="#">Консультация от астролога Людмилы Ясиной</a></li>
+            </ul>
+            <div class="togler_btn">
+                <i class="fa-solid fa-bars"></i>
             </div>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav main-nav">
-                    <li class="nav-item"><a class="nav-link" id="home" href="{% url 'traning' %}">Обучающие курсы</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Мастер-классы</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Бесплатные астрологические продукты</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{% url 'about_me' %}">Обо мне</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Консультация от астролога Людмилы Ясиной</a></li>
-                </ul>
-            </div>
+
         </div>
-    </nav>
-</header>
-<div class="line"></div>
-<div class="hidden-content">
-    <div class="s">
-        <div class="s1">
-            <div class="skola col-12 col-lg-8">Школа ведической астрологии Людмилы Ясиной</div>
-            <div class="slogan col-12 col-lg-10">
+        <div class="line"></div>
+        <div class="dropdown_menu ">
+            <ul>
+                <li><a href="#">Обучающие курсы</a></li>
+                <li><a href="#">Мастер-классы</a></li>
+                <li><a href="#">Бесплатные астрологические продукты</a></li>
+                <li><a href="#">обо мне</a></li>
+                <li><a href="#">Консультация от астролога Людмилы Ясиной</a></li>
+                <li><a href="#" class="action_btn">Записаться на курсы</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="telo"><img src="{% static 'img/тело.jpg' %}" alt=""></div>
+    <div class="home">
+        <div class="shkola_ved_astrolog">
+            <p>Школа ведической</p>
+            <p>Астрологии людмилы</p>
+            <p>Ясиной</p>
+        </div>
+
+        <div class="text_raskroite">
+            <p>
                 Раскройте сокровенную энциклопедию себя в своей натальной карте и найдите ответы на любые вопросы в
-                вашей
-                жизни, осуществляя все свои желания на пути к истинному счастью!
+                вашей жизни, осуществляя все свои желания на пути к истинному счастью!"</p>
+        </div>
+    </div>
+    <footer>
+        <div class="social">
+                <img src="{% static 'img/free-icon-youtube-2111795 1.png' %}" alt="">
+                <img src="{% static 'img/free-icon-vkontakte-4494490 1.png' %}" alt="">
+                <img src="{% static 'img/free-icon-telegram-4701496 1.png' %}" alt="">
+        </div>
+        <div class="krug">
+            <div class="vopros">?</div>
+        </div>
+        <div class="avtor_prava">
+            <div class="text_prav">© 2023 Частичное или полное копирование информации с данного сайта для
+                распространения на
+                других ресурсах, в том числе и бумажных, строго запрещено. Все тексты и изображения являются
+                собственностью
+                сайта
             </div>
         </div>
-        <div class="foto"></div>
-    </div>
-</div>
-<div class="social d-flex justify-content-center">
-    <a href="https://www.youtube.com/channel/UCORcdUdIcRwMVjagv_H1I9Q" class="col-auto">
-        <img src="{% static 'img/free-icon-youtube-2111795 1.png' %}" alt="youtube">
-        <!-- Использование тега static для подключения изображений -->
-    </a>
-    <a href="https://vk.com/vedaastra" class="col-auto">
-        <img src="{% static 'img/free-icon-vkontakte-4494490 1.png' %}" alt="vk">
-    </a>
-    <a href="https://t.me/LAstroproekt" class="col-auto">
-        <img src="{% static 'img/free-icon-telegram-4701496 1.png' %}" alt="telegram">
-    </a>
-</div>
+    </footer>
+</main>
 
-
-<!-- Подключаем файл JavaScript -->
-<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src='{% static "js/header.js" %}'></script>
 </body>
 
 </html>
