@@ -28,6 +28,10 @@ a:hover {
     border-radius: 100px;
 }
 
+a:active {
+    outline: none; /* Remove default outline style */
+}
+
 /* Header */
 header {
     position: relative;
