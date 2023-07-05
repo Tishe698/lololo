@@ -143,7 +143,7 @@ header {
 
     .dropdown_menu {
         display: block;
-        width: 44%; /* Set the width to 100% */
+        width: 50%; /* Set the width to 100% */
     }
 
     .line {
