@@ -10,7 +10,6 @@ li{
     list-style: none;
 }
 a{
-    font-size: 1.3vw;
     color: rgba(0, 0, 0, 0.66);
     text-decoration: none;
 }
@@ -135,11 +134,3 @@ header{
     }
 }
 
-
-@media (max-width: 576px) {
-    .dropdown_menu {
-        left: 2rem;
-        width: unset;
-    }
-
-}
