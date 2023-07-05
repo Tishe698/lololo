@@ -144,4 +144,8 @@ header {
     .line {
         display: none;
     }
+    a{
+        font-size: 0.87rem;
+    ;
+    }
 }
