@@ -1,12 +1,11 @@
-const toglerBtn = document.querySelector('.togler_btn')
-const toglerBtnIcon = document.querySelector('.togler_btn i')
-const dropDown_menu = document.querySelector('.dropdown_menu')
+const toglerBtn = document.querySelector('.togler_btn');
+const toglerBtnIcon = document.querySelector('.togler_btn i');
+const dropDownMenu = document.querySelector('.dropdown_menu');
+const homeSection = document.querySelector('.home');
 
 toglerBtn.onclick = function () {
-    dropDown_menu.classList.toggle('open')
-    const isOpen = dropDown_menu.classList.contains('open')
-
-    toglerBtnIcon.classList = isOpen
-    ? 'fa-solid fa-xmark'
-    : 'fa-solid fa-bars'
-}
+    dropDownMenu.classList.toggle('open');
+    const isOpen = dropDownMenu.classList.contains('open');
+    toglerBtnIcon.classList = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+    homeSection.classList.toggle('hidden');
+};

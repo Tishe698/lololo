@@ -51,11 +51,3 @@ footer {
     color: rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 1062px) {
-    footer {
-        position: fixed; /* Прикрепляет футер к нижней части экрана */
-        bottom: 0; /* Располагает футер внизу */
-        width: 100%;
-
-      }
-    }

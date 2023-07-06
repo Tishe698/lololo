@@ -9,18 +9,19 @@ body {
   background-size: cover;
   background-position: center;
   padding: 0 0.1rem;
-  min-height: 100vh; /* Set minimum height to 100% of viewport height */
+  height: 100vh; /* Изменили min-height на height */
   display: flex;
   flex-direction: column;
 }
 
 .home {
   margin-bottom: 10%;
-  flex: 1; /* Allow home section to occupy remaining vertical space */
+  flex: 1;
 }
 
 main {
   position: relative;
+
 }
 
 .shkola_ved_astrolog {
@@ -65,4 +66,10 @@ main {
   object-fit: cover;
   width: 10vw;
   mix-blend-mode: darken;
+}
+
+@media (max-width: 992px) {
+.home.hidden {
+  display: none;
+}
 }
