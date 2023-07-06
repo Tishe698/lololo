@@ -1,73 +1,73 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-  background: url('../img/фон боди.jpg') no-repeat, none;
-  background-size: cover;
-  background-position: center;
-  padding: 0 0.1rem;
-  height: 100vh; /* Изменили min-height на height */
-  display: flex;
-  flex-direction: column;
+html, body {
+    height: 100vh;
+    background: url('../img/фон боди.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 0.1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(239, 240, 235, 1);
+
 }
 
-.home {
-  margin-bottom: 10%;
-  flex: 1;
-}
 
 main {
-  position: relative;
+    flex: 1;
+    margin-bottom: 7%;
+}
 
+.home{
+    position: relative;
 }
 
 .shkola_ved_astrolog {
-  margin-top: 3%;
-  background-color: #FCAD09;
-  width: 44vw;
-  height: 12vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    margin-top: 3%;
+    background-color: #FCAD09;
+    width: 44vw;
+    height: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shkola_ved_astrolog p {
+    text-transform: uppercase;
+    font-size: 2.7vw;
+    font-family: 'Lora', serif;
+    color: #FFF;
+    text-shadow: rgba(0, 0, 0, 0.35) 0 0.3vw;
+    font-weight: 500;
+  }
+  .text_raskroite {
+    margin: 4% 0 0 9%;
+    width: 34vw;
+  }
+
+  .text_raskroite p {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 2vw;
+  }
+
+  .telo {
+    position: absolute;
+    right: 23%;
+    top: 7%;
 }
 
-.shkola_ved_astrolog p {
-  text-transform: uppercase;
-  font-size: 2.7vw;
-  font-family: 'Lora', serif;
-  color: #FFF;
-  text-shadow: rgba(0, 0, 0, 0.35) 0 2.5px;
-  font-weight: 500;
-}
-
-.text_raskroite {
-  margin: 4% 0 0 9%;
-  width: 34vw;
-  height: 10vw;
-}
-
-.text_raskroite p {
-  font-family: 'Lora', serif;
-  font-style: italic;
-  color: rgba(0, 0, 0, 0.58);
-  font-size: 2vw;
-}
-
-.telo {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.telo img {
-  object-fit: cover;
-  width: 10vw;
-  mix-blend-mode: darken;
-}
-
+  .telo img {
+    object-fit: cover;
+    width: 30vw;
+    mix-blend-mode: darken;
+  }
 @media (max-width: 992px) {
 .home.hidden {
   display: none;
