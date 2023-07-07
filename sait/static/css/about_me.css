@@ -128,8 +128,10 @@ main {
     text-transform: uppercase;
 }
 
+
+
 @media only screen and (max-width: 600px) and (min-device-width: 320px) {
   * {
-    -webkit-device-pixel-ratio: initial;
+    device-pixel-ratio: 1;
   }
 }
