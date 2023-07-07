@@ -30,15 +30,14 @@ main {
     flex-direction: column;
     position: absolute;
     background-color: #FCAD09;
-    width: 72vw;
-    height: 11vw;
+    width: 74vw;
+    /* height: 11vw; */
     top: 9%;
     align-content: center;
     align-items: flex-end;
     padding-right: 1vw;
     color: #FFF;
 }
-
 .ludmila-text {
     font-size: 4vw;
     width: 20vw;
