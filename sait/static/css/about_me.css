@@ -86,6 +86,7 @@ main {
 /* текст */
 .blocktexta{
     height: 90vw;
+    margin-bottom: 10%;
 }
 .mnogonext {
     width: 67vw;
