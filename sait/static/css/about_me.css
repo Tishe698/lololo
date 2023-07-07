@@ -59,12 +59,12 @@ main {
 
 .missia p {
     font-size: 1.5vw;
-    font-family: 'HeadlandOne';
+    font-family: 'HeadlandOne', serif;
     color: rgba(0, 0, 0, 0.50);
 }
 
 .avtor_kursov {
-    font-family: 'Lora';
+    font-family: 'Lora', serif;
     color: #fff;
     position: absolute;
     background-color: #FCAD09;
@@ -77,7 +77,7 @@ main {
 }
 
 .avtor_kursov p {
-    font-family: 'Lora';
+    font-family: 'Lora', serif;
     font-size: 2.02vw;
     text-transform: uppercase;
     line-height: 3vw;
@@ -96,7 +96,7 @@ main {
 .mnogonext p{
     color: rgba(0, 0, 0, 0.66);
     font-size: 2vw;
-    font-family: 'HeadlandOne';
+    font-family: 'HeadlandOne', serif;
 }
 
 
@@ -119,4 +119,3 @@ main {
     font-weight: 500;
     text-transform: uppercase;
 }
-
