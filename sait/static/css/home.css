@@ -68,8 +68,3 @@ main {
     width: 30vw;
     mix-blend-mode: darken;
   }
-@media (max-width: 992px) {
-.home.hidden {
-  display: none;
-}
-}

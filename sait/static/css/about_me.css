@@ -1,255 +1,122 @@
-html, body {
-
-    width: 100%;
-    height: 100%;
-    min-width: 1200px;
+html,
+body {
     background: #DCDDD7;
-
+    padding: 0 0.1rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.container {
-    max-width: none;
+main {
+    flex: 1;
 }
 
-/* подсвечивание ссылок */
-.nav-link {
-    text-decoration: none;
-    font-family: 'Lora', sans-serif;
-    color: rgba(0, 0, 0, 0.66);
+.home {
     position: relative;
-    border-radius: 100vh;
-    background: transparent;
-    transition: background-color 0.3s ease;
-    /* Плавный переход цвета фона */
+    height:81vw;
 }
 
-.nav-link:hover {
-    color: #FFFFFF;
-    background: #FCAD09;
-    box-shadow: 0 0 0 2px orange;
-    /* Замените на желаемый цвет овала и толщину границы */
-    border-radius: 100vh;
-}
-
-/* размер ссылок хедора CSS */
-.ff_header {
-    font-size: 16px;
-    font-family: 'Lora', serif;
-
-}
-
-.logo {
-    background: url('../img/logo 1.png');
-    width: 221px;
-    height: 122px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    mix-blend-mode: darken;
-}
-
-/* блок верхний*/
-.perv_block {
-    margin: 0 auto;
+.lico {
+    margin: 4% 0 0 3%;
     position: relative;
-    margin-right: 20px;
-    min-width: 1200px;
 }
 
-/* первый прямоугольник*/
-.perv_kvadrat {
+.lico img {
+    object-fit: cover;
+    width: 47%;
+}
+
+.ludmila {
+    display: flex;
+    flex-direction: column;
     position: absolute;
-    top: 23%;
-    transform: translate(0%, -118%);
-    background: #FCAD09;
-    width: 1100px;
-    height: 150px;
+    background-color: #FCAD09;
+    width: 72vw;
+    height: 11vw;
+    top: 9%;
+    align-content: center;
+    align-items: flex-end;
+    padding-right: 3%;
+    color: #FFF;
 }
 
-.text_per_kvadr {
-    margin-left: 764px; /* Adjust the value according to your desired shift */
+.ludmila-text {
+    font-size: 5vw;
+    line-height: 4vw;
 }
 
-
-.Ludmila_yasina {
-    font-family: 'Lora', serif;
-    font-size: 66px;
-    color: #FFFFFF;
-    line-height: 56px;
+.ved_astr {
+    padding-right: 2vw;
+    font-size: 2vw;
 }
 
-.ved_astrolog {
-    font-family: 'Headland One', sans-serif;
-    color: #FFFFFF;
-    font-size: 24px;
+.missia {
     position: absolute;
-    top: 112px;
-    line-height: 28px;
+    left: 50%;
+    top: 37%;
+    width: 28vw;
+    line-height: 3.5vw;
 }
 
-/* второй прямоугольник*/
-
-.vtor_kvadrat {
-    position: absolute;
-    transform: translate(0%, -25%);
-    background: #FCAD09;
-    width: 1021px;
-    height: 440px;
-    margin-left: 233px;
-}
-
-.text_vtor_kvadrata {
-    margin-left: 33px;
-    position: absolute;
-    margin-top: 120px;
+.missia p {
+    font-size: 1.5vw;
+    font-family: 'HeadlandOne';
+    color: rgba(0, 0, 0, 0.50);
 }
 
 .avtor_kursov {
-    font-family: 'Lora', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 60px;
-    color: #FFFFFF;
-}
-
-/* текст справа */
-.btext {
+    font-family: 'Lora';
+    color: #fff;
     position: absolute;
-    /* transform: translate(181%, 0); */
-    margin-left: 775px;
-
-    top: 199px;
+    background-color: #FCAD09;
+    width: 70vw;
+    right: 0%;
+    top: 68%;
+    /* margin-top: 5%; */
+    /* margin-bottom: 5%; */
+    padding: 7% 3% 3% 3%;
 }
 
-.text_missia {
-    font-family: 'Headland One', serif;
-    color: rgba(0, 0, 0, 0.5);
-    text-align: left;
-    width: 355px;
-    max-height: 300px;
-    font-size: 2.4vh;
-
+.avtor_kursov p {
+    font-family: 'Lora';
+    font-size: 2.02vw;
+    text-transform: uppercase;
+    line-height: 3vw;
 }
 
-/* фотография */
-.foto {
-    z-index: 2;
-    position: relative;
-    left: 62px;
-    top: 0;
-    width: 672px;
+/* текст */
+.blocktexta{
+    height: 90vw;
+}
+.mnogonext {
+    width: 67vw;
+    line-height: 4vw;
+    margin-left: 7%;
 }
 
-.mnogotexta {
-    position: absolute;
-    width: 35em;
-    font-family: 'HeadlandOne', serif;
-    font-size: 1.8em;
-    margin-left: 4em;
-    line-height: 2em;
-    margin-top: 15em;
+.mnogonext p{
     color: rgba(0, 0, 0, 0.66);
-    text-align: justify;
+    font-size: 2vw;
+    font-family: 'HeadlandOne';
 }
 
 
-.ovalik {
-    background: #FCAD09;
-    position: absolute;
-    transform: translate(25em, 97em);
-    border-radius: 215px;
-    width: 26em;
-    height: 5.4em;
-}
-
-.zapis_kons {
-    position: absolute;
-    color: #FFFFFF;
-    font-size: 1.8rem;
-    margin-left: 0.5rem;
-    margin-top: 1.2rem;
-    font-family: 'Headland One', sans-serif;
-    width: 18em;
-}
-
-
-.social {
+.zapistsa {
     display: flex;
-    flex-direction: column;
-    line-height: 88px;
-    position: absolute;
-    transform: translate(39px, 1778px);
-    max-width: 54px;
-    max-height: 264px;
-}
-
-.krug {
+    width: 35vw;
+    height: 6vw;
+    border-radius: 50px;
     background: #FCAD09;
-    position: absolute;
-    transform: translate(1104px, 1830px);
-    border-radius: 221px;
-    width: 102px;
-    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
 }
 
-.vopros {
-    font-family: 'HeadlandOne', serif;
-    position: absolute;
-    color: #FFFFFF;
-    font-size: 64px;
-    margin-left: 37px;
-    margin-top: 1px;
+.zapistsa p {
+    color: #FFF;
+    font-size: 1.925vw;
+    font-family: Lora, serif;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
-.avtor_prava {
-    background: #FCAD09;
-    position: absolute;
-    transform: translate(0px, 2042px);
-    width: 1400px;
-    height: 100px;
-}
-
-.text_prav {
-    font-family: 'HeadlandOne', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    width: 1117px;
-    color: rgba(0, 0, 0, 0.5);
-    margin-left: 50px;
-}
-
-@media (max-width: 768px) {
-
-    .ovalik {
-        transform: translate(25rem, 108rem);
-        width: 26.1rem;
-    }
-
-    .text_missia {
-    }
-
-}
-
-@media (min-width: 992px) {
-    .ff_header {
-        font-size: 13.7px;
-        font-family: 'Lora', serif;
-    }
-
-    .text_missia {
-        font-family: 'Headland One', serif;
-        color: rgba(0, 0, 0, 0.5);
-        text-align: left;
-        width: 355px;
-        max-height: 300px;
-        font-size: 1.7em;
-    }
-}
-
-@media (min-width: 1440px) {
-    .ff_header {
-        font-size: 15.7px;
-        font-family: 'Lora', serif;
-    }
-}

@@ -98,19 +98,20 @@ header {
 /* dropdown_menu */
 .dropdown_menu {
     display: none;
-    height: 0;
-    width: 100%; /* Set the width to 100% */
+    max-height: 0;
+    width: 100%;
     background-color: rgba(255, 255, 255, 1);
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
-    transition: height cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 1, 1);
     margin: 0 auto;
 }
 
 .dropdown_menu.open {
-    height: auto; /* Remove fixed height */
+    max-height: 500px; /* Устанавливаем достаточно большое значение */
 }
+
 
 .dropdown_menu li {
     margin: 4% 0 7% 0;
