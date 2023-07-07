@@ -35,12 +35,11 @@ main {
     top: 9%;
     align-content: center;
     align-items: flex-end;
-    padding-right: 1vw;
+    /* padding-right: 1vw; */
     color: #FFF;
 }
 .ludmila-text {
     font-size: 4vw;
-    width: 20vw;
     margin-bottom: -0.5%;
 }
 
