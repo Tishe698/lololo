@@ -15,36 +15,36 @@
 </head>
 
 <body>
- <header>
-        <a href="{% url 'home' %}">
-            <div class="logo"></div>
-        </a>
-        <div class="navbar">
+<header>
+    <a href="{% url 'home' %}">
+        <div class="logo"></div>
+    </a>
+    <div class="navbar">
 
-            <ul class="links">
-                <li><a href="{% url 'traning' %}">Обучающие курсы</a></li>
-                <li><a href="#">Мастер-классы</a></li>
-                <li><a href="#">Бесплатные астрологические продукты</a></li>
-                <li><a href="{% url 'about_me' %}">Обо мне</a></li>
-                <li><a href="#">Консультация от астролога Людмилы Ясиной</a></li>
-            </ul>
-            <div class="togler_btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+        <ul class="links">
+            <li><a href="{% url 'traning' %}">Обучающие курсы</a></li>
+            <li><a href="#">Мастер-классы</a></li>
+            <li><a href="#">Бесплатные астрологические продукты</a></li>
+            <li><a href="{% url 'about_me' %}">Обо мне</a></li>
+            <li><a href="#">Консультация от астролога Людмилы Ясиной</a></li>
+        </ul>
+        <div class="togler_btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
 
-        </div>
-        <div class="line"></div>
-        <div class="dropdown_menu ">
-            <ul>
-                <li><a href="{% url 'traning' %}">Обучающие курсы</a></li>
-                <li><a href="#">Мастер-классы</a></li>
-                <li><a href="#">Бесплатные астрологические продукты</a></li>
-                <li><a href="{% url 'about_me' %}">обо мне</a></li>
-                <li><a href="#">Консультация от астролога Людмилы Ясиной</a></li>
-                <li><a href="#" class="action_btn">Записаться на курсы</a></li>
-            </ul>
-        </div>
-    </header>
+    </div>
+    <div class="line"></div>
+    <div class="dropdown_menu ">
+        <ul>
+            <li><a href="{% url 'traning' %}">Обучающие курсы</a></li>
+            <li><a href="#">Мастер-классы</a></li>
+            <li><a href="#">Бесплатные астрологические продукты</a></li>
+            <li><a href="{% url 'about_me' %}">обо мне</a></li>
+            <li><a href="#">Консультация от астролога Людмилы Ясиной</a></li>
+            <li><a href="#" class="action_btn">Записаться на курсы</a></li>
+        </ul>
+    </div>
+</header>
 <main>
 
 
@@ -60,28 +60,43 @@
                 Раскройте сокровенную энциклопедию себя в своей натальной карте и найдите ответы на любые вопросы в
                 вашей жизни, осуществляя все свои желания на пути к истинному счастью!"</p>
         </div>
-
+    </div>
+    <div class="block_sknizkoi">
+        <div class="knizka"><img src="{% static 'img/книга 1.png' %}" alt=""></div>
+        <div class="slova_posobia">
+            <p>Авторское астрологическое пособие: "Ретроградные планеты в вашей карте. Какие задачи они вам ставят"</p>
+        </div>
+        <div class="take_present">
+            <p>получить подарок</p>
+        </div>
+        <div class="ekspers_konsl">
+            <p>Шанс получить бесплатную </p>
+            <p> эксперсс консультации </p>
+        </div>
+        <div class="posmotr_spis_tem">
+            <p>Посмотреть список тем</p>
+        </div>
     </div>
 
-</main >
-    <footer>
-        <div class="social">
-            <img src="{% static 'img/free-icon-youtube-2111795 1.png' %}" alt="">
-            <img src="{% static 'img/free-icon-vkontakte-4494490 1.png' %}" alt="">
-            <img src="{% static 'img/free-icon-telegram-4701496 1.png' %}" alt="">
+</main>
+<footer>
+    <div class="social">
+        <img src="{% static 'img/free-icon-youtube-2111795 1.png' %}" alt="">
+        <img src="{% static 'img/free-icon-vkontakte-4494490 1.png' %}" alt="">
+        <img src="{% static 'img/free-icon-telegram-4701496 1.png' %}" alt="">
+    </div>
+    <div class="krug">
+        <div class="vopros">?</div>
+    </div>
+    <div class="avtor_prava">
+        <div class="text_prav">© 2023 Частичное или полное копирование информации с данного сайта для
+            распространения на
+            других ресурсах, в том числе и бумажных, строго запрещено. Все тексты и изображения являются
+            собственностью
+            сайта
         </div>
-        <div class="krug">
-            <div class="vopros">?</div>
-        </div>
-        <div class="avtor_prava">
-            <div class="text_prav">© 2023 Частичное или полное копирование информации с данного сайта для
-                распространения на
-                других ресурсах, в том числе и бумажных, строго запрещено. Все тексты и изображения являются
-                собственностью
-                сайта
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
 <script src='{% static "js/header.js" %}'></script>
 </body>
 

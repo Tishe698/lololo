@@ -5,14 +5,11 @@
 }
 
 html, body {
-    height: 100vh;
-    background: url('../img/фон боди.jpg') no-repeat;
-    background-position: center;
-    background-size: cover;
     padding: 0 0.1rem;
     display: flex;
     flex-direction: column;
-    background-color: rgba(239, 240, 235, 1);
+    background: linear-gradient(271deg, #D9D9D9 0%, #FFF 100%);
+
 
 }
 
@@ -24,6 +21,7 @@ main {
 
 .home{
     position: relative;
+    height: 60vw;
 }
 
 .shkola_ved_astrolog {
@@ -35,36 +33,129 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .shkola_ved_astrolog p {
+.shkola_ved_astrolog p {
     text-transform: uppercase;
     font-size: 2.7vw;
     font-family: 'Lora', serif;
     color: #FFF;
     text-shadow: rgba(0, 0, 0, 0.35) 0 0.3vw;
     font-weight: 500;
-  }
-  .text_raskroite {
+}
+
+.text_raskroite {
     margin: 4% 0 0 9%;
     width: 34vw;
-  }
+}
 
-  .text_raskroite p {
+.text_raskroite p {
     font-family: 'Lora', serif;
     font-style: italic;
     color: rgba(0, 0, 0, 0.58);
     font-size: 2vw;
-  }
+}
 
-  .telo {
+.telo {
     position: absolute;
     right: 23%;
     top: 7%;
 }
 
-  .telo img {
+.telo img {
     object-fit: cover;
     width: 30vw;
     mix-blend-mode: darken;
-  }
+}
+
+.block_sknizkoi {
+    position: relative;
+    height: 100vw;
+}
+
+.knizka {
+    position: absolute;
+    right: 59%;
+    top: 3%
+}
+
+.knizka img {
+    object-fit: cover;
+    width: 21vw;
+    mix-blend-mode: darken;
+}
+
+.slova_posobia {
+    width: 29vw;
+    position: absolute;
+    right: 28%;
+    top: 5%;
+}
+
+.slova_posobia p {
+    font-size: 1.8vw;
+    font-family: 'Lora', serif;
+    color: rgba(0, 0, 0, 0.58);
+    line-height: 2.5vw;
+}
+
+.take_present {
+    display: flex;
+    width: 25vw;
+    height: 6vw;
+    border-radius: 50px;
+    background: #FCAD09;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    right: 32%;
+    top: 19%;
+}
+
+.take_present p {
+    color: #FFF;
+    font-size: 1.925vw;
+    font-family: Lora, serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ekspers_konsl {
+    width: 29vw;
+    position: absolute;
+    left: 16%;
+    top: 36%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ekspers_konsl p {
+    font-size: 1.8vw;
+    font-family: 'Lora', serif;
+    color: rgba(0, 0, 0, 0.58);
+    line-height: 2.5vw;
+    text-transform: uppercase;
+}
+
+.posmotr_spis_tem {
+    display: flex;
+    width: 25vw;
+    height: 6vw;
+    border-radius: 50px;
+    background: #FCAD09;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    left: 18%;
+    top: 41%;
+}
+
+p {
+    color: #FFF;
+    font-size: 1.7vw;
+    font-family: Lora, serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
