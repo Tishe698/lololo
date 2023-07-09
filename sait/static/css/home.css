@@ -121,8 +121,9 @@ main {
 }
 
 .ekspers_konsl {
-    width: 29vw;
-    left: 16%;
+    width: 35%;
+    position: absolute;
+    left: 13%;
     top: 36%;
     display: flex;
     justify-content: center;
@@ -134,12 +135,13 @@ main {
     font-size: 1.8vw;
     font-family: 'Lora', serif;
     color: rgba(0, 0, 0, 0.58);
+    line-height: 2.5vw;
     text-transform: uppercase;
 }
 
 .posmotr_spis_tem {
     display: flex;
-    width: 25vw;
+    width: 25%;
     height: 6vw;
     border-radius: 50px;
     background: #FCAD09;
@@ -147,7 +149,7 @@ main {
     align-items: center;
     justify-content: center;
     left: 18%;
-    top: 41%;
+    top: 43%;
 }
 
 p {
