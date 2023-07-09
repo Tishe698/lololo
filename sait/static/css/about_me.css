@@ -37,7 +37,7 @@ main {
     flex-direction: column;
     position: absolute;
     background-color: #FCAD09;
-    width: 80%;
+width: 80vw;
     height: 12vw;
     top: 9%;
     align-content: center;
@@ -60,12 +60,12 @@ main {
     position: absolute;
     left: 57%;
     top: 35%;
-    width: 28vw;
-    line-height: 3.5vw;
+    width: 28%;
+    line-height: 2.5vw;
 }
 
 .missia p {
-    font-size: 2.0vw;
+    font-size: 2.3vw;
     font-family: 'HeadlandOne', serif;
     color: rgba(0, 0, 0, 0.50);
 }
