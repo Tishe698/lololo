@@ -60,15 +60,14 @@ width: 80vw;
     position: absolute;
     left: 57%;
     top: 35%;
-    width: 36%;
-    line-height: 2.5vw;
+    width: 41%;
 }
 
 .missia p {
     font-size: 2.3vw;
     font-family: 'HeadlandOne', serif;
     color: rgba(0, 0, 0, 0.50);
-        line-height: 3vw;
+        line-height: 4vw;
 }
 
 .avtor_kursov {
