@@ -25,35 +25,35 @@ main {
 }
 
 .shkola_ved_astrolog {
-    margin-top: 3%;
-    background-color: #FCAD09;
-    width: 44vw;
-    height: 12vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin-top: 3%;
+  background-color: #FCAD09;
+  width: 55%;
+  height: 17vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.shkola_ved_astrolog p {
-    text-transform: uppercase;
-    font-size: 2.7vw;
+  .shkola_ved_astrolog p {
+    font-size: 3.1vw;
     font-family: 'Lora', serif;
     color: #FFF;
     text-shadow: rgba(0, 0, 0, 0.35) 0 0.3vw;
     font-weight: 500;
-}
+  }
 
 .text_raskroite {
-    margin: 4% 0 0 9%;
-    width: 34vw;
+    margin: 4% 0 0 5%;
+    width: 46%;
 }
 
 .text_raskroite p {
     font-family: 'Lora', serif;
     font-style: italic;
     color: rgba(0, 0, 0, 0.58);
-    font-size: 2vw;
+    font-size: 2.5vw;
+        text-transform: none;
 }
 
 .telo {
