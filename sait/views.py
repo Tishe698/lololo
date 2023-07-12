@@ -10,3 +10,6 @@ def about_me(req):
 
 def traning(req):
     return render(req, 'traning_curse.html')
+
+def master_class(req):
+    return render(req, 'master_class.html')
